@@ -2,28 +2,37 @@
   <img src="banner.png">
 </p>
 
-## The Challenge
-1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
-2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
-3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
-4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
-5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+## George Montee's Cloud Journey
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+I have been working with computers for many years now, and have gained exposure to a various aspects of Information Technology. I've done software testing, SQL database development, identity management, front-end development, scrum master, and other areas. In 2021, as part of my transition from the Air Force, I started working with the cloud, in particular doing Amazon Web Services (AWS) Infrastructure-as-a-Service (IaaS) work.
 
-## [✍️ Your Name]'s Cloud Journey
+I've learned a lot, but still have plenty of room to grow. I'm starting this 100 days of cloud to help structure my learning journey. It can be easy to get off track, spin one's wheels, or lose focus of the grand vision. I know what I have lined up ahead will take more than 100 days. My thought process is if I can do 100 days, I can continue seamlessly on.
 
-[✍️ Introduce yourself]
+At the end of this challenge, I looking to have significant knowledge of the Azure cloud capabilities, and learn a variety of areas, tools, and technologies like the following:
 
-[✍️ Tell us why you started this challenge]
+- Deepen my experience of the Linux Operating System
+- Broaden knowledge of Bash, and PowerShell
+- Get comfortable with Git on the command line
+- Learn about containers, Docker, and Kubernetes
+- Hands-on experience with Infrastructure as Code (IaC) tooling with Terraform, and Ansible
+- Learn another lanuage, Python, which is used for programming, automation, big data, and so much more
+- Expand upon my introduction to DevOps, CI/CD, and tooling like Jenkins
+- Upgrade my experience of Team Foundation Server to Azure DevOps
 
-[✍️ Tell us where you want to be at the end of the challenge]
+Additionally, I intend to get _some_ of the following certifications. My idea being they can be a milestone of showing I have learned that area to a certain industry-level.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [x] AZ-900 Azure Fundamentals
+- [ ] AZ-104 Azure Administrator Associate
+- [ ] AZ-204 Azure Developer Associate
+- [ ] AZ-500 Azure Security Engineer
+- [ ] AZ-305 Azure Solutions Architect Expert
+- [ ] AZ-400 Azure DevOps Engineer Expert
+- [ ] AWS Certified Cloud Practitioner
+- [ ] HashiCorp Certified: Terraform Associate
+- [ ] CNCF Certified Kubernetes Administartor (CKA)
+- [ ] CNCF Certified Kubernetets Application Developer (CKAD)
+
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/georgemontee/)
 
 ## Stepping out the door
 
