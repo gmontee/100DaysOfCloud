@@ -32,7 +32,9 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] CNCF Certified Kubernetes Administartor (CKA)
 - [ ] CNCF Certified Kubernetets Application Developer (CKAD)
 
-- [Connect with me on LinkedIn](https://www.linkedin.com/in/georgemontee/)
+### [Connect with me on LinkedIn!](https://www.linkedin.com/in/georgemontee/)
+
+Please mention this challenge in your Linkedin connect note.
 
 ## Stepping out the door
 
