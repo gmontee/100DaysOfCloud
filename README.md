@@ -36,14 +36,14 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 Please mention this challenge in your Linkedin connect note.
 
-## Stepping out the door
+## Stepping out the door to Azure AZ-104 Administrator Certification
 
 - [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
+- [ ] ☁️ 2 > [Azure AZ-104 Identity & Governance](Journey/002/Readme.md)
+- [ ] ☁️ 3 > [Azure AZ-104 Administration](Journey/003/Readme.md)
+- [ ] ☁️ 4 > [Azure AZ-104 Networking](Journey/004/Readme.md)
+- [ ] ☁️ 5 > [Azure AZ-104 Storage & Virtual Machines](Journey/005/Readme.md)
+- [ ] ☁️ 6 > [Azure AZ-104 Containers & Kubernetes](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
