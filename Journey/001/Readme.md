@@ -52,4 +52,4 @@
 
 ✍️ Show that you shared your process on LinkedIn
 
-[link](link)
+[Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:6919303141096112129/)
