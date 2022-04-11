@@ -42,7 +42,7 @@
 
 ## ☁️ Cloud Outcome
 
-✍️ I believe the biggest factor 'hurting' me in learning Azure, is I don't currently have direct hands-on opportunties in my daily work load. It feels like a 'chicken and egg' problem. For the roles I'm seeing, I need 'X' amount of experience in Azure, Terraform, Python, etc. I'm having to upskill in my free time (it's Sunday afternoon as I write this) to achieve a certain level of competence. I feel like I"m taking an artificial path rather than an organic one to get there. I guess it's the reality I'm in, and to make the best of it. I'm looking up to where I **WANT** to be, and will carve a path onto that trail.
+✍️ I believe the biggest factor 'hurting' me in learning Azure, is I don't currently have direct hands-on opportunties for certain tech in my daily work load. It feels like a 'chicken and egg' problem. For the roles I'm seeing, I need 'X' amount of experience in Terraform, Python, Jenkins, etc. I'm having to upskill in my free time (it's Sunday afternoon as I write this) to achieve a certain level of competence. I feel like I"m taking an artificial path rather than an organic one to get there. I guess it's the reality I'm in, and to make the best of it. I'm looking up to where I **WANT** to be, and will carve a path onto that trail.
 
 ## Next Steps
 
