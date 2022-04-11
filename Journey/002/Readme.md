@@ -1,11 +1,11 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day 2 - Azure AZ-104 Manage Azure Active Directory Identities Lab
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+✍️ I mentioned yesterday I completed [A Cloud Guru's AZ-104 Microsoft Azure Administrator certification prep course](https://acloudguru.com/course/az-104-microsoft-azure-administrator-certification-prep). Although, they provide hands-on labs, I still want to do [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I will be doing Lab 1 Manage Azure Active Directory Identities.
 
 ## Prerequisite
 
@@ -13,8 +13,15 @@
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="architecture diagram" align="center">
+  <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab01.png" alt="diagram showing the four lab steps" width="600"/>
+</div>
+
+- ✍️ This architecture diagram is taken from the lab page, showing the four steps:
+  - Task 1: Create and configure Azure AD users
+  - Task 2: Create Azure AD groups with assigned and dynamic membership
+  - Task 3: Create an Azure Active Directory (AD) tenant
+  - Task 4: Manage Azure AD guest users
 
 ## Cloud Research
 
