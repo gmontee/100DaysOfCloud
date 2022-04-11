@@ -28,8 +28,6 @@
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
 ### Step 1 — Create and Configure Azure AD users
 
 Task 1 - Step 3 they ask you to check 'User Settings'. Initially, I couldn't find it, I was click 'Users', then trying to find 'Settings'
