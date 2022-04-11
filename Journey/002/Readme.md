@@ -62,7 +62,9 @@ Following the lab, we invited the Lab Tenant user as a guest account. Then assig
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) I got comfortable working through the process of adding users, configuring dynamic groups, and creating a tenant organization. I was reminded to be consistent in my naming conventions, e.g., System vs Systems.
+✍️ I got comfortable working through the process of adding users, configuring dynamic groups, and creating a tenant organization. I was reminded to be consistent in my naming conventions, e.g., System vs Systems.
+
+✍️ I was alittle uneasy starting a free trial for [AAD Premium P2, it's $9 per user/month](https://azure.microsoft.com/en-us/pricing/details/active-directory/). I have cost alerts on, so I'll keep an eye out for any charges in case I didn't get everything cleaned up. I also reviewed this blog post comparing the [different features of the AAD licenses.](https://www.agileit.com/news/understanding-azure-active-directory-aad-licensing-free-p1-p2/)
 
 ## Next Steps
 
