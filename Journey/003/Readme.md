@@ -35,7 +35,7 @@
 ### Task 1 — Implement Management Groups
 
 First, I had to update my permissions, in order to manage all subscriptions and management groups in my tenant.
-![Screenshot](images/az104-lab2-task1-aad-access.pngaz104-lab1-task2-assign-license.png)
+![Screenshot](images/az104-lab2-task1-aad-access.png)
 
 For the purpose of this lab, they have us move our current subscription, rather going through the hassle of creating an another subscription. This part makes a little nervous.
 ![Screenshot](images/az104-lab2-task1-moving-subscription.png)
