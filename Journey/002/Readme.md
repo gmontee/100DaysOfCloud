@@ -74,4 +74,4 @@ Following the lab, we invited the Lab Tenant user as a guest account. Then assig
 
 ✍️ Show that you shared your process on LinkedIn
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6919651505100701696-Bzjw?utm_source=linkedin_share&utm_medium=member_desktop_web)
