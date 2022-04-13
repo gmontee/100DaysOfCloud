@@ -72,4 +72,4 @@ For the second action, the user can create support requests.
 
 ✍️ Show that you shared your process on LinkedIn
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6919992906334261248-fsLz?utm_source=linkedin_share&utm_medium=member_desktop_web)
