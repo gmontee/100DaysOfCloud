@@ -39,7 +39,7 @@ Creating the policy
 ![Screenshot](images/az104-lab3-task2-create-policy.png)
 
 Here the attempt to deploy a new storage account without the necessary tag fails validation
-<!-- ![Screenshot](images/az104-lab3-task2-deploy-storage.png) -->
+![Screenshot](images/az104-lab3-task2-deploy-storage.png)
 
 ### Step 3 — Apply tagging via an Azure policy
 
