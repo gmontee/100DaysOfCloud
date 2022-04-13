@@ -27,8 +27,13 @@
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+✍️ I was a bit uneasy about moving subscription down to a another management group level. If you follow along, be sure to follow the clean-up instructions, where they have you move the subscription back to the root management group.
+
+✍️ I hadn't opened Cloud Shell on this account before, so I had to create a storage account, and file share to store the cloud shell settings. Storage accounts have some naming convention limitations, so I couldn't use more than 24 characters, or use hyphens. Annoying, but I'm sure it's for compatibility purposes.
+
+✍️ Flipping between Bash and Powershell terminal options hurts my brain. In this lab we used PowerShell, but when I went to list directory contents (after uploading the json file), I used 'll' instead of 'dir' and got an error. Took my brain a second to process, "Oh!, right, using PowerShell".
+
+✍️ I don't know if it was a glitch, but when I was initially creating the user I got a generic "Unable to create a user" message. No other elaboration was provided on what the issue was. Frustrating. A quick google search, and I went the auto-generate password that others had suggested. I had to click to reveal the generated password.
 
 ## Try yourself
 
@@ -58,16 +63,6 @@ The custom RBAC role allows two actions. For the first one, the user can see (re
 
 For the second action, the user can create support requests.
 ![Screenshot](images/az104-lab2-task3-new-support-request.png)
-
-## ☁️ Cloud Outcome
-
-✍️ I was a bit uneasy about moving subscription down to a another management group level. If you follow along, be sure to follow the clean-up instructions, where they have you move the subscription back to the root management group.
-
-✍️ I hadn't opened Cloud Shell on this account before, so I had to create a storage account, and file share to store the cloud shell settings. Storage accounts have some naming convention limitations, so I couldn't use more than 24 characters, or use hyphens. Annoying, but I'm sure it's for compatibility purposes.
-
-✍️ Flipping between Bash and Powershell terminal options hurts my brain. In this lab we used PowerShell, but when I went to list directory contents (after uploading the json file), I used 'll' instead of 'dir' and got an error. Took my brain a second to process, "Oh!, right, using PowerShell".
-
-I don't know if it was a glitch, but when I was initially creating the user I got a generic "Unable to create a user" message. No other elaboration was provided on what the issue was. Frustrating. A quick google search, and I went the auto-generate password that others had suggested. I had to click to reveal the generated password.
 
 ## Next Steps
 
