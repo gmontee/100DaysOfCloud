@@ -65,8 +65,6 @@ Here's I'm able to [resize the disk](https://docs.microsoft.com/en-us/azure/virt
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
 I noticed when creating disks Azure defaults to a Premium SDD 1024 GiB. Isn't that nice of Microsoft, wanting the best for me? :)
 
 CAUTION: When removing the resource lock on the disk, I wasn't prompted. It just did. Something to keep in mind for folks, like me, who like to click things.
@@ -79,6 +77,6 @@ In cleaning up, I deleted the three new resource groups I created. The second on
 
 ## Social Proof
 
-[✍️ Show that you shared your process on LinkedIn
+✍️ Show that you shared your process on LinkedIn
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6920729546413506560-fHfF?utm_source=linkedin_share&utm_medium=member_desktop_web)
