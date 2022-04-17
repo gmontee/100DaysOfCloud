@@ -10,7 +10,9 @@
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+✍️ Azure CLI is a Bash-like command line interface.
+
+✍️ If you haven't used the Cloud Shell before, Azure will ask you to create storage so that configuration files will persist across sessions.
 
 ## Use Case
 
@@ -19,36 +21,41 @@
 </div>
 
 - ✍️ This architecture diagram is taken from the lab page, showing the three tasks:
-  - Task 1: Start a PowerShell session in Azure Cloud Shell
-  - Task 2: Create a resource group and an Azure managed disk by using Azure PowerShell
-  - Task 3: Configure the managed disk by using Azure PowerShell
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+  - Task 1: Start a Bash session in Azure Cloud Shell
+  - Task 2: Create a resource group and an Azure managed disk by using Azure CLI
+  - Task 3: Configure the managed disk by using Azure CLI
 
 ## My Experience
 
-### Step 1 — Summary of Step
+### Task 1 — Start a Bash session in Azure Cloud Shell
 
-![Screenshot](https://via.placeholder.com/500x300)
+Just like yesterday, opening Cloud Shell, and this time selecting 'Bash' from the drop-down.
+![Screenshot](images/az104-lab3d-task1-change-shell.png)
 
-### Step 1 — Summary of Step
+### Task 2 — Create a resource group and an Azure managed disk by using Azure CLI
 
-![Screenshot](https://via.placeholder.com/500x300)
+Some differences from PowerShell yesterday. You'll notice when declaring and assigning variables, the dollar sign isn't used. But when referencing the variable, the dollar sign is used.
+Additionally, the backspace '/', is used for line continuation.
+![Screenshot](images/az104-lab3d-task2-create-rg.png)
 
-### Step 3 — Summary of Step
+Creating the disk.
+![Screenshot](images/az104-lab3d-task2-create-disk.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 3 — Configure the managed disk by using Azure CLI
+
+You'll notice a pattern with commands. Starting with 'az', then the command group, the command itself, and then parameters (distinguished by the --), and then the value.
+![Screenshot](images/az104-lab3d-task3-upgrade-size.png)
+
+Easy Peasy.
+![Screenshot](images/az104-lab3d-task3-upgrade-sku.png)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+✍️ Another straight forward lab. I have used PowerShell, yesterday's lab, on and off in the past. The beginning of last year I finally jumped into the Linux world full steam, and starting learning Bash. For me, the Bash commands are less verbose.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+✍️ Tomorrow, I'm going to do the eighth lab, Implement Virtual Networking, from the Virtual Networking module.
 
 ## Social Proof
 
