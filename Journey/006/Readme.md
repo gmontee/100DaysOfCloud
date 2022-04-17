@@ -68,11 +68,11 @@ Utilizing the 2019 template I had gotten directly from the previous disk, this d
 
 ## ☁️ Cloud Outcome
 
-✍️ Unlike the previous labs, up to this point, this was quite bumpy. I'm going to need to do more research on utilizing ARM templates. I noticed when comparing the two different schemas, the older one had 2021-04-01 for the API version, while the more recent schema had 2021-12-01. I found this [page for Microsoft.Compute/disks](https://docs.microsoft.com/en-us/azure/templates/microsoft.compute/disks?tabs=bicep), where it allows you to view previous API versions.
+✍️ This went a lot better, and faster, than yesterday's lab. Of course, ARM templates are better for automation and repeatability. The Cloud Shell options are better suited for one-time work.
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the fifth lab, 3c Manage Azure resources by Using Azure PowerShell, from the Azure Administration module.
+✍️ Tomorrow, I'm going to do the sixth lab, 3c Manage Azure resources by Using Azure PowerShell, from the Azure Administration module.
 
 ## Social Proof
 
