@@ -10,7 +10,15 @@
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+✍️ Today's concept is **Infrastructure-as-Code (IaC)**.
+
+✍️ Anybody that has had to manage the configuration and maintenance of servers, networks, firewalls, load balancers, etc has experienced **'environment drift'**. Just by the nature of IT, even duplicate servers, with the same exact Operating System, configurations, application code, and so on will have differing configurations as time progresses. A update crashes on one machine, and although you overcome the issue, the machine is never the same as a it's sibling. As time progresses, these differences start to accumulate.
+
+IaC provides a way to manage infrastructure via code, enabling automation, consistent deployments, and removes much of the previous manual work.
+
+Azure Resource Manager is a native Azure IaC tool that utilizes declarative JSON-based or Bicep templates.
+
+Sidenote: Bicep is a recent addition; a domain specific language for deploying Azure resources. It was created to provide simpler syntax compared to JSON-templates. Although, it's still 0.5 version at the time of this writing, it's already being recommended by Microsoft to learn and utilize it. For the sake of this lab I will be using the JSON-template, but expect Bicep in future posts.
 
 ## Use Case
 
@@ -22,11 +30,6 @@
   - Task 1: Review an ARM template for deployment of an Azure managed disk
   - Task 2: Create an Azure managed disk by using an ARM template
   - Task 3: Review the ARM template-based deployment of the managed disk
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
 ## My Experience
 
