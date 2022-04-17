@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "diskName": {
+            "value": {
+                "type": "String",
+                "value": "az104-03a-disk1"
+            }
+        },
+        "location": {
+            "value": {
+                "type": "String",
+                "value": "southcentralus"
+            }
+        },
+        "sku": {
+            "value": {
+                "type": "String",
+                "value": "Standard_LRS"
+            }
+        },
+        "diskSizeGb": {
+            "value": {
+                "type": "Int",
+                "value": 32
+            }
+        },
+        "sourceResourceId": {
+            "value": {
+                "type": "String",
+                "value": ""
+            }
+        },
+        "sourceUri": {
+            "value": {
+                "type": "String",
+                "value": ""
+            }
+        },
+        "osType": {
+            "value": {
+                "type": "String",
+                "value": ""
+            }
+        },
+        "createOption": {
+            "value": {
+                "type": "String",
+                "value": "empty"
+            }
+        },
+        "hyperVGeneration": {
+            "value": {
+                "type": "String",
+                "value": ""
+            }
+        },
+        "diskEncryptionSetType": {
+            "value": {
+                "type": "String",
+                "value": "EncryptionAtRestWithPlatformKey"
+            }
+        },
+        "networkAccessPolicy": {
+            "value": {
+                "type": "String",
+                "value": "AllowAll"
+            }
+        }
+    }
+}
