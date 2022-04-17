@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/y9gcCOXpNX8UfZrp0X/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/LcfBYS8BKhCvK/giphy.gif" width="500"/>
 </div>
 
 # Day 7 - Azure AZ-104 Manage Azure resources by Using Azure PowerShell
@@ -58,11 +58,11 @@ With a simple command, I change the SKU from standard to premium. This Microsoft
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+✍️ Smooth sailing on this one. I think for one off or non-routine work this is GREAT!
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the fifth lab, 3d Manage Azure resources by Using Azure CLI, from the Azure Administration module.
+✍️ Tomorrow, I'm going to do the seventh lab, 3d Manage Azure resources by Using Azure CLI, from the Azure Administration module.
 
 ## Social Proof
 

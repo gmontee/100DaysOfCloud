@@ -2,11 +2,11 @@
   <img src="https://media.giphy.com/media/KmHueA88mFABT9GkkR/giphy.gif" width="500"/>
 </div>
 
-# New post title here
+# Day 8 - Azure AZ-104 Manage Azure resources by Using Azure CLI
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+✍️ Yesterday, I walked through Lab 3b Manage Azure resources by Using Azure PowerShell lab, from [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I'm doing Lab 3c, Manage Azure resources by Using Azure CLI Lab.
 
 ## Prerequisite
 
@@ -14,17 +14,21 @@
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab03c.png" width="400"/>
+</div>
+
+- ✍️ This architecture diagram is taken from the lab page, showing the three tasks:
+  - Task 1: Start a PowerShell session in Azure Cloud Shell
+  - Task 2: Create a resource group and an Azure managed disk by using Azure PowerShell
+  - Task 3: Configure the managed disk by using Azure PowerShell
 
 ## Cloud Research
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
 - 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## My Experience
 
 ### Step 1 — Summary of Step
 
@@ -48,6 +52,6 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+✍️ Show that you shared your process on LinkedIn
 
-[link](link)
+[Linkedin Post]()
