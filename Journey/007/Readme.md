@@ -6,13 +6,13 @@
 
 ## Introduction
 
-✍️ Yesterday, I walked through Lab 3b Manage Azure resources by Using ARM Templates lab, from [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I'm doing Lab 3c, Manage Azure resources by Using Azure PowerShell Lab.
+☁️ Yesterday, I walked through Lab 3b Manage Azure resources by Using ARM Templates lab, from [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I'm doing Lab 3c, Manage Azure resources by Using Azure PowerShell Lab.
 
 ## Prerequisite
 
-✍️ PowerShell is a task automation and configuration management program, consisting of a command-line shell, and scripting language.
+☁️ PowerShell is a task automation and configuration management program, consisting of a command-line shell, and scripting language.
 
-✍️ If you haven't used the Cloud Shell before, Azure will ask you to create storage so that configuration files will persist across sessions.
+☁️ If you haven't used the Cloud Shell before, Azure will ask you to create storage so that configuration files will persist across sessions.
 
 ## Use Case
 
@@ -20,14 +20,14 @@
   <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab03c.png" width="400"/>
 </div>
 
-- ✍️ This architecture diagram is taken from the lab page, showing the three tasks:
+- This architecture diagram is taken from the lab page, showing the three tasks:
   - Task 1: Start a PowerShell session in Azure Cloud Shell
   - Task 2: Create a resource group and an Azure managed disk by using Azure PowerShell
   - Task 3: Configure the managed disk by using Azure PowerShell
 
 ## Cloud Research
 
-- ✍️ Azure Cloud Shell comes in two flavors, PowerShell and CLI (aka Bash-like). Generally, if you're coming from a Microsoft environment, PowerShell will be the natural choice, and if you can come from a Linux environment, then Azure CLI will be the choice. The two options do have _some_ differences when it comes to capabilities, but a number of those are user preference.
+☁️ Azure Cloud Shell comes in two flavors, PowerShell and CLI (aka Bash-like). Generally, if you're coming from a Microsoft environment, PowerShell will be the natural choice, and if you can come from a Linux environment, then Azure CLI will be the choice. The two options do have _some_ differences when it comes to capabilities, but a number of those are user preference.
 
 ## My Experience
 
@@ -58,14 +58,14 @@ With a simple command, I change the SKU from standard to premium. This Microsoft
 
 ## ☁️ Cloud Outcome
 
-✍️ Smooth sailing on this one. I think for one off or non-routine work this is GREAT!
+☁️ Smooth sailing on this one. I think for one off or non-routine work this is GREAT!
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the seventh lab, 3d Manage Azure resources by Using Azure CLI, from the Azure Administration module.
+☁️ Tomorrow, I'm going to do the seventh lab, 3d Manage Azure resources by Using Azure CLI, from the Azure Administration module.
 
 ## Social Proof
 
-✍️ Show that you shared your process on LinkedIn
+Show that you shared your process on LinkedIn
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6922269697316966401-5nB-?utm_source=linkedin_share&utm_medium=member_desktop_web)
