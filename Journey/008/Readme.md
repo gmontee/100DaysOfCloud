@@ -6,13 +6,13 @@
 
 ## Introduction
 
-✍️ Yesterday, I walked through Lab 3b Manage Azure resources by Using Azure PowerShell lab, from [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I'm doing Lab 3c, Manage Azure resources by Using Azure CLI Lab.
+☁️ Yesterday, I walked through Lab 3b Manage Azure resources by Using Azure PowerShell lab, from [Microsoft Learn AZ-104 Lab Exercises](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/). Today, I'm doing Lab 3c, Manage Azure resources by Using Azure CLI Lab.
 
 ## Prerequisite
 
-✍️ Azure CLI is a Bash-like command line interface.
+☁️ Azure CLI is a Bash-like command line interface.
 
-✍️ If you haven't used the Cloud Shell before, Azure will ask you to create storage so that configuration files will persist across sessions.
+☁️ If you haven't used the Cloud Shell before, Azure will ask you to create storage so that configuration files will persist across sessions.
 
 ## Use Case
 
@@ -20,7 +20,7 @@
   <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab03c.png" width="400"/>
 </div>
 
-- ✍️ This architecture diagram is taken from the lab page, showing the three tasks:
+- This architecture diagram is taken from the lab page, showing the three tasks:
   - Task 1: Start a Bash session in Azure Cloud Shell
   - Task 2: Create a resource group and an Azure managed disk by using Azure CLI
   - Task 3: Configure the managed disk by using Azure CLI
@@ -51,14 +51,14 @@ Easy Peasy.
 
 ## ☁️ Cloud Outcome
 
-✍️ Another straight forward lab. I have used PowerShell, yesterday's lab, on and off in the past. The beginning of last year I finally jumped into the Linux world full steam, and starting learning Bash. For me, the Bash commands are less verbose.
+☁️ Another straight forward lab. I have used PowerShell, yesterday's lab, on and off in the past. The beginning of last year I finally jumped into the Linux world full steam, and starting learning Bash. For me, the Bash commands are less verbose.
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the eighth lab, Implement Virtual Networking, from the Virtual Networking module.
+☁️ Tomorrow, I'm going to take the AZ-104 Azure Administrator exam.
 
 ## Social Proof
 
-✍️ Show that you shared your process on LinkedIn
+☁️ Show that you shared your process on LinkedIn
 
 [Linkedin Post]()
