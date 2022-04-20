@@ -61,4 +61,4 @@ Easy Peasy.
 
 ☁️ Show that you shared your process on LinkedIn
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6922577775878942720-3U46?utm_source=linkedin_share&utm_medium=member_desktop_web)
