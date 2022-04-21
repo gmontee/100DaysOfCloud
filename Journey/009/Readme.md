@@ -75,4 +75,4 @@ Trying to decide what next on my journey. Might finish the AZ-104 labs. Also loo
 
 ☁️ Show that you shared your process on LinkedIn
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6923031451705720832-_5jF?utm_source=linkedin_share&utm_medium=member_desktop_web)
