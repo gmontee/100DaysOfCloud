@@ -65,11 +65,11 @@ For taking pracitice exams, I went with [Tutorial Dojo's AZ-104 Microsoft Azure 
 
 ## ☁️ Cloud Outcome
 
-????
+I PASSED!! Talk about sweating bullets. I scored 767, and taking into account my current experience level, I consider that a victory.
 
 ## Next Steps
 
-Trying to decide what next on my journey. Looking at Docker and Kubernetes, or Bicep and Terraform.
+Trying to decide what next on my journey. Might finish the AZ-104 labs. Also looking at starting on Docker and Kubernetes, or Bicep and Terraform.
 
 ## Social Proof
 
