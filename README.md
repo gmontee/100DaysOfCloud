@@ -22,7 +22,7 @@ At the end of this challenge, I looking to have significant knowledge of the Azu
 Additionally, I intend to get _some_ of the following certifications. My idea being they can be a milestone of showing I have learned that area to a certain industry-level.
 
 - [x] AZ-900 Azure Fundamentals
-- [ ] AZ-104 Azure Administrator Associate
+- [x] AZ-104 Azure Administrator Associate
 - [ ] AZ-204 Azure Developer Associate
 - [ ] AZ-500 Azure Security Engineer
 - [ ] AZ-305 Azure Solutions Architect Expert
@@ -33,8 +33,6 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] CNCF Certified Kubernetets Application Developer (CKAD)
 
 ### [Connect with me on LinkedIn!](https://www.linkedin.com/in/georgemontee/)
-
-Please mention this challenge in your Linkedin connect note.
 
 ## Stepping out the door to Azure AZ-104 Administrator Certification
 
@@ -47,22 +45,22 @@ Please mention this challenge in your Linkedin connect note.
 - [ ] ☁️ 7 > [Azure AZ-104 Manage Azure resources by Using Azure PowerShell](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Azure AZ-104 Manage Azure resources by Using Azure CLI](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [Azure AZ-104 Exam Day!](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
-## Walking down the road
+## Walking down the road to greater Azure experience
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
-- [ ] ☁️ 13 > [](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [ ] ☁️ 10 > [](Journey/010/Readme.md) <!-- Implement Virtual Networking -->
+- [ ] ☁️ 11 > [](Journey/011/Readme.md) <!-- Implement Intersite Connectivity -->
+- [ ] ☁️ 12 > [](Journey/012/Readme.md) <!-- Implement Traffic Management -->
+- [ ] ☁️ 13 > [](Journey/013/Readme.md) <!-- Manage Azure Storage -->
+- [ ] ☁️ 14 > [](Journey/014/Readme.md) <!-- Manage Virtual Machines -->
+- [ ] ☁️ 15 > [](Journey/015/Readme.md) <!-- Implement Web Apps -->
+- [ ] ☁️ 16 > [](Journey/016/Readme.md) <!-- Implement Azure Container Instances -->
+- [ ] ☁️ 17 > [](Journey/017/Readme.md) <!-- Implement Azure Kubernetes Service -->
+- [ ] ☁️ 18 > [](Journey/018/Readme.md) <!-- Implement Data Protection -->
+- [ ] ☁️ 19 > [](Journey/019/Readme.md) <!-- Implement Monitoring -->
+- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!-- Taking Stock -->
 
-## Crossing the bridge
+## Crossing the bridge <!-- to AZ-305 Azure Solutions Architect Certification -->
 
 - [ ] ☁️ 21 > [](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [](Journey/022/Readme.md)
@@ -75,7 +73,7 @@ Please mention this challenge in your Linkedin connect note.
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
-## Into the bushy, thorny forest
+## Into the bushy, thorny forest <!-- of Containers and Kubernetes -->
 
 - [ ] ☁️ 31 > [](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
@@ -88,7 +86,7 @@ Please mention this challenge in your Linkedin connect note.
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 
-## Trekking the dunes
+## Trekking the Terraformed dunes
 
 - [ ] ☁️ 41 > [](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
