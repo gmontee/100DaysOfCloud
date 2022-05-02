@@ -48,7 +48,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 ## Walking down the road to greater Azure experience
 
-- [ ] ☁️ 10 > [](Journey/010/Readme.md) <!-- Implement Virtual Networking -->
+- [ ] ☁️ 10 > [Azure AZ-104 Implement Virtual Networking](Journey/010/Readme.md) <!-- Implement Virtual Networking -->
 - [ ] ☁️ 11 > [](Journey/011/Readme.md) <!-- Implement Intersite Connectivity -->
 - [ ] ☁️ 12 > [](Journey/012/Readme.md) <!-- Implement Traffic Management -->
 - [ ] ☁️ 13 > [](Journey/013/Readme.md) <!-- Manage Azure Storage -->
