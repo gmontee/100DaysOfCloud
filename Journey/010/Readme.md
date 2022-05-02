@@ -140,4 +140,4 @@ Here I'm able to successfully resolve the domain name for the first vm! The seco
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6926900722869403648-Wt_A?utm_source=linkedin_share&utm_medium=member_desktop_web)
