@@ -1,52 +1,85 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/Wk5YYh2evQnNS/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 12 - Azure AZ-104 Implement Traffic Management
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Yesterday's lab was focused on creating a unified mesh topology. Today, I will create a hub and spoke network topology, and use a load balancer and application gateway to route traffic via the hub.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ When I was creating the mesh topology, I had to create network peerings to the other networks, and repeat the process on each VNet. With the Hub-and-Spoke topology, the "hub" will manage the connections.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab06.png" width="600"/>
+</div>
+
+- This architecture diagram is taken from the lab page, showing the three tasks:
+  - Task 1: Provision the lab environment
+  - Task 2: Configure the hub and spoke network topology
+  - Task 3: Test transitivity of virtual network peering
+  - Task 4: Configure routing in the hub and spoke topology
+  - Task 5: Implement Azure Load Balancer
+  - Task 6: Implement Azure Application Gateway
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- ☁️ [Hub-Spoke topology](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli) is where there's a hub virtual network acting as a central point of connectivity, usually where core services are deployed. The spoke virtual networks peer with the hub, and are used to isolate workloads.
 
-## Try yourself
+- ☁️ [Azure Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview) are used to distribute incoming network traffic across a group of resources. This service operates at Layer 4 of the OSI model.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- ☁️ [Azure Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview), similar to the concept of a Load Balancer. However, Application Gateways operate at OSI Layer 7, enabling URL-based routing.
 
-### Step 1 — Summary of Step
+## My Experience
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 1 — Provision the lab environment
 
-### Step 1 — Summary of Step
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 2 — Configure the hub and spoke network topology
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 3 — Test transitivity of virtual network peering
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 4 — Configure routing in the hub and spoke topology
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 5 — Implement Azure Load Balancer
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 6 — Implement Azure Application Gateway
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ Result) Describe your personal outcome, and lessons learned.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to work with Azure Storage
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
