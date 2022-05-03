@@ -77,4 +77,4 @@ Utilizing RDP, I remote into VM0. Using PowerShell and the Test-NetConnection co
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6927248776088752128-cYBo?utm_source=linkedin_share&utm_medium=member_desktop_web)
