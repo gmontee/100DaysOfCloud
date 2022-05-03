@@ -1,84 +1,148 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/Wk5YYh2evQnNS/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/BNfSvT4oflVIQfwHWj/giphy.gif" width="500"/>
 </div>
 
-# Day 12 - Azure AZ-104 Implement Traffic Management
+# Day 12 - Azure AZ-204 Azure App Service
 
 ## Introduction
 
-☁️ Yesterday's lab was focused on creating a unified mesh topology. Today, I will create a hub and spoke network topology, and use a load balancer and application gateway to route traffic via the hub.
+☁️ Yesterday's lab was focused on creating a unified mesh topology. Today, I'm learning about the Azure App Service via the Microsoft Learn 'Explore Azure App Service' module.
 
 ## Prerequisite
 
-☁️ When I was creating the mesh topology, I had to create network peerings to the other networks, and repeat the process on each VNet. With the Hub-and-Spoke topology, the "hub" will manage the connections.
+☁️ The Azure App Service is a HTTP-based service for hosting web applications, REST APIs, and mobile back ends.
 
 ## Use Case
 
 <div id="use case" align="center">
-  <img src="https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/media/lab06.png" width="600"/>
+  <img src="https://aspblogs.blob.core.windows.net/media/scottgu/WindowsLiveWriter/AnnouncingthenewAzureAppService_122D1/image_4.png" width="600"/>
 </div>
-
-- This architecture diagram is taken from the lab page, showing the three tasks:
-  - Task 1: Provision the lab environment
-  - Task 2: Configure the hub and spoke network topology
-  - Task 3: Test transitivity of virtual network peering
-  - Task 4: Configure routing in the hub and spoke topology
-  - Task 5: Implement Azure Load Balancer
-  - Task 6: Implement Azure Application Gateway
 
 ## Cloud Research
 
-- ☁️ [Hub-Spoke topology](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli) is where there's a hub virtual network acting as a central point of connectivity, usually where core services are deployed. The spoke virtual networks peer with the hub, and are used to isolate workloads.
+- ☁️ Auto Scaling
 
-- ☁️ [Azure Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview) are used to distribute incoming network traffic across a group of resources. This service operates at Layer 4 of the OSI model.
+  - Up/Down: changing the number of cores or the amount of memory
+  - Out/In: changing the number of machine instances running
 
-- ☁️ [Azure Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/overview), similar to the concept of a Load Balancer. However, Application Gateways operate at OSI Layer 7, enabling URL-based routing.
+- ☁️ Continuous Integration & Deployment
 
-## My Experience
+  - Azure DevOps
+  - GitHub
+  - Bitbucket
+  - FTP
+  - Local Git repo on a dev machine
 
-### Task 1 — Provision the lab environment
+- ☁️ Deployment Slots (Standard or Premium plan tiers)
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - Slots can be used for staging and production builds. Slots can be swapped, aka Blue/Green deployment.
 
-### Task 2 — Configure the hub and spoke network topology
+- ☁️ Supports multiple languages and frameworks
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - Can't mix Windows and Linux apps in the same App Service plan
+  - Hosted on Windows or Linux
+    - ASP.NET Core
+    - PHP
+    - Node.js
+    - Java
+    - HTML
+  - Windows Only
+    - ASP.NET
+  - Linux Only
+    - Ruby
+    - Python
 
-### Task 3 — Test transitivity of virtual network peering
+- ☁️ App Service Plans
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - defines a set of compute resources for a web app to run
+  - One or more apps can run on the same compute resources
+  - Azure Functions can be ran
+  - are the scale unit
 
-### Task 4 — Configure routing in the hub and spoke topology
+- ☁️ App Service plan contains:
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - Region
+  - Number of VM instances
+  - Size of VM instances (Small, Medium, Large)
+  - Pricing tier
 
-### Task 5 — Implement Azure Load Balancer
+- ☁️ App Service Pricing Tiers
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - Shared: dev/test, can't scale out, shared with other customers
+    - Free
+    - Shared
+  - Dedicated: only apps in same service plan share resources, higher tiers equal more vm instances for scaling out
+    - Basic
+    - Standard
+    - Premium
+    - PremiumV2
+    - PremiumV3
+  - Isolated: runs on dedicated VNet, maximum scale-out capability
+  - Consumption: function apps, scales dynamically depending on workload
 
-### Task 6 — Implement Azure Application Gateway
+- ☁️ Automated Deployment
 
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
+  - process used to push out new features and bug fixes in a fast and repetitive pattern with minimal impact on end users
+    - Azure DevOps
+    - GitHub
+    - Bitbucket
+
+- ☁️ Manual Deployment
+
+  - manually push your code to Azure
+    - Git
+    - CLI
+    - Zip deploy
+    - FTP/S
+
+- ☁️ Built-in Authentication
+
+  - out-of-the-box authentication with federated identity providers
+  - can integrate with multiple login providers
+  - authentication and authorization module runs in the same sandbox as your app code
+    - Authenticates users with the specified token
+    - Validates, stores, and refreshes tokens
+    - Manages the authenticated session
+    - Injects identity information into request headers
+
+- ☁️ Identity Providers
+
+  - Microsoft Identify Platform
+  - Facebook
+  - Google
+  - Twitter
+  - Any OpenID Connect provider
+
+- ☁️ Authentication Flow
+
+  - Without provider SDK (server-directed flow): browser apps
+  - WIth provider SDK (client-directed flow): REST APIs, Azure Functions, JavaScript browser clients, native mobile apps
+
+- ☁️ Authorization Behavior
+
+  - Allow unauthenticated requests - defers to app code
+  - Require authentications
+
+- ☁️ Multi-tenant App Service networking features
+  - Front ends: role that handle incoming HTTP/S requests
+  - Workers: roles that host the customer workload
+  - Inbound Features
+    - App-assigned address
+    - Access restrictions
+    - Service endpoints
+    - Private endpoints
+  - Outbound Features
+    - Hybrid Connections
+    - Gateway-required virtual network integration
+    - Virtual network integration
 
 ## ☁️ Cloud Outcome
 
-☁️ Result) Describe your personal outcome, and lessons learned.
+☁️ That was a lot to take in. I need to review this content using [John Savill's video](https://youtu.be/_E73_SQN8ZU?t=4875), or this portion of the [A Cloud Guru course](https://learn.acloud.guru/course/az-204-developing-solutions-for-microsoft-azure/overview).
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to work with Azure Storage
+☁️ Tomorrow, I'm going to create a static HTML web app by using Azure Cloud Shell
 
 ## Social Proof
 
