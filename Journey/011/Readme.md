@@ -73,7 +73,7 @@ Utilizing RDP, I remote into VM0. Using PowerShell and the Test-NetConnection co
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to manage network traffic.
+☁️ Tomorrow, I'm going to shift gears a bit, and jump into the Azure App Service, in preparation for the Azure AZ-204.
 
 ## Social Proof
 
