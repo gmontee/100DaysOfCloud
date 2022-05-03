@@ -49,16 +49,16 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 ## Walking down the road to greater Azure experience
 
 - [ ] ☁️ 10 > [Azure AZ-104 Implement Virtual Networking](Journey/010/Readme.md) <!-- Implement Virtual Networking -->
-- [ ] ☁️ 11 > [](Journey/011/Readme.md) <!-- Implement Intersite Connectivity -->
-- [ ] ☁️ 12 > [](Journey/012/Readme.md) <!-- Implement Traffic Management -->
-- [ ] ☁️ 13 > [](Journey/013/Readme.md) <!-- Manage Azure Storage -->
-- [ ] ☁️ 14 > [](Journey/014/Readme.md) <!-- Manage Virtual Machines -->
-- [ ] ☁️ 15 > [](Journey/015/Readme.md) <!-- Implement Web Apps -->
-- [ ] ☁️ 16 > [](Journey/016/Readme.md) <!-- Implement Azure Container Instances -->
-- [ ] ☁️ 17 > [](Journey/017/Readme.md) <!-- Implement Azure Kubernetes Service -->
-- [ ] ☁️ 18 > [](Journey/018/Readme.md) <!-- Implement Data Protection -->
-- [ ] ☁️ 19 > [](Journey/019/Readme.md) <!-- Implement Monitoring -->
-- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!-- Taking Stock -->
+- [ ] ☁️ 11 > [Implement Intersite Connectivity](Journey/011/Readme.md) <!--  -->
+- [ ] ☁️ 12 > [](Journey/012/Readme.md) <!-- Azure AZ-204 Azure App Service -->
+- [ ] ☁️ 13 > [](Journey/013/Readme.md) <!-- AZ-204 Creating a static HTML web app by using Azure Cloud Shell -->
+- [ ] ☁️ 14 > [](Journey/014/Readme.md) <!-- Azure AZ-204 Configure Web App Settings -->
+- [ ] ☁️ 15 > [](Journey/015/Readme.md) <!--  -->
+- [ ] ☁️ 16 > [](Journey/016/Readme.md) <!--  -->
+- [ ] ☁️ 17 > [](Journey/017/Readme.md) <!--  -->
+- [ ] ☁️ 18 > [](Journey/018/Readme.md) <!--  -->
+- [ ] ☁️ 19 > [](Journey/019/Readme.md) <!--  -->
+- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!--  -->
 
 ## Crossing the bridge <!-- to AZ-305 Azure Solutions Architect Certification -->
 
