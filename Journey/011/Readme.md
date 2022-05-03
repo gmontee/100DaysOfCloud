@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/mfGkfzHM3KfdI0OmIW/giphy-downsized-large.gif" width="500"/>
+  <img src="https://media.giphy.com/media/mfGkfzHM3KfdI0OmIW/giphy-downsized.gif" width="300"/>
 </div>
 
 # Day 11 - Azure AZ-104 Implement Intersite Connectivity
