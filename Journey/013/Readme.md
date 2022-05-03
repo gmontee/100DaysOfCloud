@@ -1,52 +1,74 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/Te0mQ7oWbqot5LpaTT/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 13 - AZ-204 Creating a static HTML web app by using Azure Cloud Shell
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today I'm going to [deploy a simple web app](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-app-service/7-create-html-web-app) using the App Service.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Need Cloud Shell set up. Sample program is found [here](https://github.com/Azure-Samples/html-docs-hello-world.git).
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://aspblogs.blob.core.windows.net/media/scottgu/WindowsLiveWriter/AnnouncingthenewAzureAppService_122D1/image_4.png" width="600"/>
+</div>
 
-## Cloud Research
+- This architecture diagram is taken from the lab page, showing the three tasks:
+  - Task 1: Download the Sample App
+  - Task 2: Create the Web App
+  - Task 3: Update and Redeploy the App
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## My Experience
 
-## Try yourself
+### Task 1 — Download the Sample App
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+I opened Cloud Shell, switched to Bash, and entered the commands shown in the screenshot.
 
-### Step 1 — Summary of Step
+<div align="center">
+  <img src="images/az204-module1-download-app.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 2 — Create the Web App
 
-### Step 1 — Summary of Step
+Creating the app via Azure CLI. The name has to be globally unique.
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/az204-module1-create-web-app.png" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+Success
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/az204-module1-deployed.png" width="800"/>
+</div>
+
+### Task 3 — Update and Redeploy the App
+
+I use the built-in code editor to make a simple change.
+
+<div align="center">
+  <img src="images/az204-module1-editing-code.png" width="800"/>
+</div>
+
+A quick refresh, and the page shows the update.
+
+<div align="center">
+  <img src="images/az204-module1-redeployed.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ That was painless. This was the equivalent of "hello world!", since I merely deployed it, but didn't do anything with settings.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to dig deeper into Azure App Service by looking at application settings, installing SSL/TLS certificates to secure web traffic, enable diagnostic logging, creating virtual app to directory mappings, and managing app features.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
