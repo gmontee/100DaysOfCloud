@@ -1,52 +1,74 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/xdkXW7Scx6gus/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 15 - Azure AZ-204 Scale apps in Azure App Service
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Yesterday's I looked at the various settings within the Azure App Service. Today, I'm going to learn how autoscale operates in the App Service
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ An important cloud function is the ability of resources to scale to accommodate varying workload sizes. Ideally, out when the need is great, and in when the demand lessens.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://aspblogs.blob.core.windows.net/media/scottgu/WindowsLiveWriter/AnnouncingthenewAzureAppService_122D1/image_4.png" width="600"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Autoscaling - a cloud process that adjusts available resources based on the current demand, scaling in and out.
 
-## Try yourself
+☁️ The Azure App Service monitors the resource metrics of a web app it runs. It responds to changes by adding or removing additional web servers.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+☁️ It doesn't change CPU size, memory, storage, etc, which is scaling up and down. Thus it might not be the best option for resource intensive processing.
 
-### Step 1 — Summary of Step
+☁️ Improves availability and fault tolerance. However, if there are few instances to begin with, there's less capacity to handle a surge as it takes time for additional instances to spin up.
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <p>Enable Autoscaling</p>
+  <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/scale-apps-app-service/media/enable-autoscale.png" width="600"/>
+</div>
 
-### Step 1 — Summary of Step
+☁️ An instance limit can be set to prevent runaway autoscaling.
 
-![Screenshot](https://via.placeholder.com/500x300)
+☁️ Two options to trigger autoscale actions; multiple conditions can be created
 
-### Step 3 — Summary of Step
+- based on metrics
+- based on schedule
 
-![Screenshot](https://via.placeholder.com/500x300)
+☁️ If metric based, the following can be used
 
-## ☁️ Cloud Outcome
+- CPU percentage
+- Memory percentage
+- Disk Queue Length
+- Http Queue Length
+- Data In
+- Data Out
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ Autoscale actions have cool periods, specified in minutes.
+
+<div align="center">
+ <p>Creating Autoscale Rules</p>
+  <img src="https://docs.microsoft.com/en-us/learn/wwl-azure/scale-apps-app-service/media/autoscale-rules.png" width="600"/>
+</div>
+
+☁️ Best Practices
+
+1. Ensure the maximum and minimum values are different and have an adequate margin between them
+2. Choose the appropriate statistic for your diagnostics metric
+3. Choose the thresholds carefully for all metric types
+4. Considerations for scaling when multiple rules are configured in a profile
+5. Always select a safe default instance count
+6. Configure autoscale notifications
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to look at Azure App Service deployment slots
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
