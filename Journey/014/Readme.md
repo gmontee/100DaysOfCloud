@@ -99,4 +99,4 @@ Platform Settings:
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6928328752942772224-cPqC?utm_source=linkedin_share&utm_medium=member_desktop_web)
