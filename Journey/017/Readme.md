@@ -1,52 +1,156 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/6AFldi5xJQYIo/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 17 - Azure AZ-204 Implement IaaS Solutions: Containers in Azure
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Containers are the next evolution that comes after virtualization. They're highly versatile, super portable, even more resource efficient, scalable, and they can be created/replicated/destroyed in seconds.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Container Images - a static file with execute that can create a container on a computing system
+
+☁️ Azure Container Registry - private registry service for building, storing, and managing container images and related artifacts
+
+☁️ Azure Container Instance a solution for any scenario that can operate in isolated containers, without orchestration
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="images/container_use_case.png" width="600"/>
+</div>
+
+- Implement Infrastructure-as-a-Service Solutions:
+  - Provision Virtual Machines (VMs)
+  - Configure, validate, and deploy ARM templates
+  - **Configure container images for solutions**
+  - **Publish an image to the Azure Container Registry**
+  - **Run containers by using the Azure Container Instance**
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Container
 
-## Try yourself
+- The Service
+- Dependencies
+- Libraries
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Azure CLI
+az container create command
 
-### Step 1 — Summary of Step
+- resource group
+- name
+- image path or url
+- dns name label
+- ports
 
-![Screenshot](https://via.placeholder.com/500x300)
+PowerShell
+new-AzContainerGroup command
 
-### Step 1 — Summary of Step
+- Resource Group
+- Name
+- Image path or url
+- OS TYpe
+- DNS name label
+- (defaults to Port 80)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Container Groups
 
-### Step 3 — Summary of Step
+- a collection of containers that get scheduled on the same host machine
+- containers share a lifecycle, resources, local network, and storage volumes
+- similar in concept to a pod in Kubernetes
 
-![Screenshot](https://via.placeholder.com/500x300)
+Container Operations
+
+Azure Container Registry
+
+- 3 Tiers:
+  - Basic: cost-optimized, developer focused, lower throughput/storage
+  - Standard: default for production loads, more throughput/storage
+  - Premium: high-volume scenarios with concurrent operations; geo-replication, content trust, and compatibility with Private Link
+- understand how to "lock" repos/images to avoid unauthorized or accidental updates/deletes
+- restricting access and authorization
+
+## My Experience with Containers in Azure
+
+### Task 1 — Create the Registry
+
+Creating my own container registry. I went through the lab found [here](https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/1-intro-to-azure-container-registry).
+
+<div align="center">
+  <img src="images/az204-acrlab-task1-create-acr.png" width="800"/>
+</div>
+
+### Task 2 — Build Container images with ACR
+
+Creating the Dockerfile; this config adds a Node.js app that will serve the application on Port 80.
+
+<div align="center">
+  <img src="images/az204-acrlab-task2-dockerfile.png" width="800"/>
+</div>
+
+Building the container image. It might be hard to notice, but at the end of the command the period represents the current directory as the source directory for the Dockerfile. I could've specified the location of that file utilizing the --file parameter.
+
+<div align="center">
+  <img src="images/az204-acrlab-task2-create-image.png" width="800"/>
+</div>
+
+Verifying the image. Success!
+
+<div align="center">
+  <img src="images/az204-acrlab-task2-verify-image.png" width="800"/>
+</div>
+
+### Task 3 — Deploy images from ACR
+
+Azure Container Registry requires authenticated access; either via Azure AD, or an admin account. For this exercise, I don't want to mess with AAD. Admin accounts are disabled by default, so I need to enable it.
+
+<div align="center">
+  <img src="images/az204-acrlab-task3-enable-admin.png" width="800"/>
+</div>
+
+I need to get the credentials (don't worry I deleted this RG and all its resources after I was done).
+
+<div align="center">
+  <img src="images/az204-acrlab-task3-retrieve-cred.png" width="800"/>
+</div>
+
+Deploying the container!
+
+<div align="center">
+  <img src="images/az204-acrlab-task3-deploy-container.png" width="800"/>
+</div>
+
+Grabbing the IP address of the container's public site
+
+<div align="center">
+  <img src="images/az204-acrlab-task3-get-ip.png" width="800"/>
+</div>
+
+There it is!
+
+<div align="center">
+  <img src="images/az204-acrlab-task3-site.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Benefits of using Azure Container Registry
+
+- Able to replicate container images to multiple Azure datacenters
+- Pull container images using any Docker container-related technology
+- Build container images without the need for locally installed Docker tools
+
+Recommend Authentication method for ACR is utilizing an Azure service principal. That provides granular access, allowing read-only up to full access
+
+Geo-replication enables ACR to function as a single registry (!), serving several regions with multi-master regional registries.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I learn about Azure Functions.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
