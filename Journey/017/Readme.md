@@ -149,7 +149,7 @@ Geo-replication enables ACR to function as a single registry (!), serving severa
 
 ## Next Steps
 
-☁️ Tomorrow, I learn about Azure Functions.
+☁️ Tomorrow, I learn about diagnostic logs in Azure App Service Web Apps.
 
 ## Social Proof
 
