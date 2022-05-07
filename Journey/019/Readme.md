@@ -1,52 +1,94 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/uurtMtTKqkJda4dk8Y/giphy-downsized-large.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 18 - Azure AZ-204 Implement Azure Functions
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Azure functions is a serverless concept of cloud native design that allows a piece of code deployed and execute without any need of server infrastructure, web server, or any configurations
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Serverless Computing is a method of providing backend services on an as-used basis
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/media/Lab02-Diagram.png" width="600"/>
+</div>
+
+- Implement Azure functions:
+  - **Create and deploy Azure Functions app**
+  - Implement input and output bindings to a function
+  - Implement function triggers by using data operations, timers, and webhooks
+  - Implement Azure Durable Functions
+  - Implement custom handlers
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Azure functions are lightweight, serverless, easier to write and deploy
 
-## Try yourself
+☁️ Azure functions can be written in multiple languages: C#, Java, JavaScript, TypeScript, Python
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+☁️ Azure functions are scalable; resources are allocated/unallocated based on demand
 
-### Step 1 — Summary of Step
+☁️ Azure functions execution is triggered when an event is fired
 
-![Screenshot](https://via.placeholder.com/500x300)
+☁️ Azure functions can be built, tested, and deployed in the Azure Portal
 
-### Step 1 — Summary of Step
+## My Experience with Azure Functions
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 1 — Create Prerequisite Resources
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 2 — Create a Function app
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 3 — Configure a local Azure Functions
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 4 — Create a function that's triggered by an HTTP request
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 5 — Create a function that's triggers on a schedule
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 6 — Create a function that integrates with other services
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 7 — Deploy a local function project to an Azure Functions app
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I move onto Developing for Azure Storage.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
