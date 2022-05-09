@@ -39,51 +39,96 @@
 
 ## My Experience with Azure Functions
 
-### Task 1 — Create Prerequisite Resources
+### Task 0 — Configure Local Environment
+
+I need to download and install the .NET SDK and Runtime on my Ubuntu 21.10 box.
+
+Adding the Microsoft package signing key to my list of trusted keys, and adding the package repo.
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task0-mspackage.png" width="800"/>
+  <img src="images/az204-functionlab-task0-package-repo.png" width="800"/>
 </div>
 
-### Task 2 — Create a Function app
+Installing the .NET SDK locally
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task0-dotnet-sdk1.png" width="800"/>
+  <img src="images/az204-functionlab-task0-dotnet-sdk2.png" width="800"/>
+  <img src="images/az204-functionlab-task0-dotnet-sdk3.png" width="800"/>
 </div>
 
-### Task 3 — Configure a local Azure Functions
+Installing the Azure Functions Core Tools locally
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task0-func-core-tools.png" width="800"/>
 </div>
 
-### Task 4 — Create a function that's triggered by an HTTP request
+Installing the Azure CLI locally
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task0-azurecli1.png" width="800"/>
 </div>
 
-### Task 5 — Create a function that's triggers on a schedule
+Double-checking versions installed
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task0-versions.png" width="800"/>
 </div>
 
-### Task 6 — Create a function that integrates with other services
+### Task 1 — Create a local Function project
+
+Creating the Function project and the HttpExample function on my local machine
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task1-create-func-proj.png" width="800"/>
 </div>
 
-### Task 7 — Deploy a local function project to an Azure Functions app
+### Task 2 — The Function itself
+
+Taking a look at the function generated from template. The Run method receives the request data in the req variable, returns either a 200 OK or 400 Bad Request Error message
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-functionlab-task1-httpexample-file.png" width="800"/>
+</div>
+
+### Task 3 — Run the function locally
+
+In the terminal I started the function, 'func start', and once it's built and loaded, I goto 'http://localhost:7071/api/HttpExample' in my browser.
+
+<div align="center">
+  <img src="images/az204-functionlab-task3-local-run.png" width="800"/>
+</div>
+
+### Task 4 — Create Prerequisite Azure Resources
+
+Creating the Function App in Azure
+
+<div align="center">
+  <img src="images/az204-functionlab-task4-create-app-plan1.png" width="800"/>
+  <img src="images/az204-functionlab-task4-create-app-plan2.png" width="800"/>
+  <img src="images/az204-functionlab-task4-create-app-plan3.png" width="800"/>
+  <img src="images/az204-functionlab-task4-create-app-plan4.png" width="800"/>
+</div>
+
+### Task 5 — Deploy the Function project to Azure
+
+<div align="center">
+  <img src="images/az204-functionlab-task5-deploy-func.png" width="800"/>
+  <img src="images/az204-functionlab-task6-invoke.png" width="800"/>
+</div>
+
+### Task 6 — Verifying the deployed Function on Azure
+
+And we are live!
+
+<div align="center">
+   <img src="images/az204-functionlab-task6-browse.png" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
 
-☁️
+☁️ The fact I was able to do this 100% from the command line is incredible. Just a great feeling to have that kind of capability.
 
 ## Next Steps
 
