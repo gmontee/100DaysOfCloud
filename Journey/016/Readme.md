@@ -149,4 +149,4 @@ Here I'm using PowerShell to check the power state of myVM, and the stopping it.
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6929798430261219329-jvm1?utm_source=linkedin_share&utm_medium=member_desktop_web)
