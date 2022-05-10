@@ -53,7 +53,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 13 > [Azure AZ-204 Creating a static HTML web app by using Azure Cloud Shell](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Azure AZ-204 Configure Web App Settings](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Azure AZ-204 Scale apps in Azure App Service](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md) <!-- Azure AZ-204 Implement IaaS Solutions: VMs -->
+- [ ] ☁️ 16 > [Azure AZ-204 Implement IaaS Solutions: VMs](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md) <!-- Azure AZ-204 Implement IaaS Solutions: Containers in Azure -->
 - [ ] ☁️ 18 > [](Journey/018/Readme.md) <!--  -->
 - [ ] ☁️ 19 > [](Journey/019/Readme.md) <!--  -->
