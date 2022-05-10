@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/uurtMtTKqkJda4dk8Y/giphy-downsized-large.gif" width="500"/>
 </div>
 
-# Day 18 - Azure AZ-204 Implement Azure Functions
+# Day 19 - Azure AZ-204 Implement Azure Functions
 
 ## Introduction
 
