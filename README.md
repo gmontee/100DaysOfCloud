@@ -54,9 +54,9 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 14 > [Azure AZ-204 Configure Web App Settings](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Azure AZ-204 Scale apps in Azure App Service](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Azure AZ-204 Implement IaaS Solutions: VMs](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md) <!-- Azure AZ-204 Implement IaaS Solutions: Containers in Azure -->
-- [ ] ☁️ 18 > [](Journey/018/Readme.md) <!--  -->
-- [ ] ☁️ 19 > [](Journey/019/Readme.md) <!--  -->
+- [ ] ☁️ 17 > [Azure AZ-204 Implement IaaS Solutions: Containers in Azure](Journey/017/Readme.md)
+- [ ] ☁️ 18 > [Azure AZ-204 Azure App Service Web Apps: Diagnostic Logs](Journey/018/Readme.md)
+- [ ] ☁️ 19 > [](Journey/019/Readme.md) <!-- Azure AZ-204 Implement Azure Functions -->
 - [ ] ☁️ 20 > [](Journey/020/Readme.md) <!--  -->
 
 ## Crossing the bridge <!-- to AZ-305 Azure Solutions Architect Certification -->
