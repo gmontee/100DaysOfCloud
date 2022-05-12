@@ -55,7 +55,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 15 > [Azure AZ-204 Scale apps in Azure App Service](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Azure AZ-204 Implement IaaS Solutions: VMs](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [Azure AZ-204 Implement IaaS Solutions: Containers in Azure](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md) <!-- Azure AZ-204 Azure App Service Web Apps: Diagnostic Logs -->
+- [ ] ☁️ 18 > [Azure AZ-204 Azure App Service Web Apps: Diagnostic Logs](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md) <!-- Azure AZ-204 Implement Azure Functions -->
 - [ ] ☁️ 20 > [](Journey/020/Readme.md) <!--  -->
 
