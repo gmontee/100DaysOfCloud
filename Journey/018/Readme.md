@@ -128,4 +128,4 @@ I extract the log text file from the zip, and open the file using the built-in c
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6930519973668741122-aKA4?utm_source=linkedin_share&utm_medium=member_desktop_web)
