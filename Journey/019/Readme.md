@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/uurtMtTKqkJda4dk8Y/giphy-downsized-large.gif" width="500"/>
+  <img src="https://media.giphy.com/media/cugOguK3T7rpK/giphy.gif" width="500"/>
 </div>
 
 # Day 19 - Azure AZ-204 Implement Azure Functions
@@ -136,4 +136,4 @@ And we are live!
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6930877093908025344-nQid?utm_source=linkedin_share&utm_medium=member_desktop_web)
