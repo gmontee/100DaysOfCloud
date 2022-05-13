@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/uurtMtTKqkJda4dk8Y/giphy-downsized-large.gif" width="500"/>
+  <img src="https://media.giphy.com/media/cugOguK3T7rpK/giphy.gif" width="500"/>
 </div>
 
 # Day 19 - Azure AZ-204 Implement Azure Functions
