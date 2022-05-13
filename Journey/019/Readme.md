@@ -136,4 +136,4 @@ And we are live!
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6930877093908025344-nQid?utm_source=linkedin_share&utm_medium=member_desktop_web)
