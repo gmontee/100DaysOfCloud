@@ -49,6 +49,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 11 > [Azure AZ-104 Implement Intersite Connectivity](Journey/011/Readme.md)
 
 ## Jogging down the road to Azure AZ-204 Developer Certification
+
 - [ ] ☁️ 12 > [Azure AZ-204 Azure App Service](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [Azure AZ-204 Creating a static HTML web app by using Azure Cloud Shell](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Azure AZ-204 Configure Web App Settings](Journey/014/Readme.md)
@@ -57,23 +58,20 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 17 > [Azure AZ-204 Implement IaaS Solutions: Containers in Azure](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [Azure AZ-204 Azure App Service Web Apps: Diagnostic Logs](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [Azure AZ-204 Implement Azure Functions](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!--  -->
+- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!-- Azure AZ-204 Retrieve Azure Storage via Azure Storage SDK for .NET -->
+- [ ] ☁️ 21 > [](Journey/021/Readme.md) <!-- Azure AZ-204 Construct a Polyglot Data Solution -->
+- [ ] ☁️ 22 > [](Journey/022/Readme.md) <!-- Azure AZ-204 Authenticate by using OpenID Connect, MSAL, and .NET SDKs -->
+- [ ] ☁️ 23 > [](Journey/023/Readme.md) <!-- Azure AZ-204 Access resource secrets more securely across services -->
+- [ ] ☁️ 24 > [](Journey/024/Readme.md) <!-- Azure AZ-204 Create a multi-tier solution by using Azure services -->
+- [ ] ☁️ 25 > [](Journey/025/Readme.md) <!-- Azure AZ-204 Publish and subscribe to Event Grid events -->
+- [ ] ☁️ 26 > [](Journey/026/Readme.md) <!-- Azure AZ-204 Asynchronously process messages by using Azure Service Bus Queues -->
+- [ ] ☁️ 27 > [](Journey/027/Readme.md) <!-- Azure AZ-204 Monitor services that are deployed to Azure -->
+- [ ] ☁️ 28 > [](Journey/028/Readme.md) <!-- Azure AZ-204 Enhance a web application by using the Azure Content Delivery Network -->
 
-## Crossing the bridge <!-- to AZ-305 Azure Solutions Architect Certification -->
+## Into the bushy, thorny forest
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
-- [ ] ☁️ 25 > [](Journey/025/Readme.md)
-- [ ] ☁️ 26 > [](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
-
-## Into the bushy, thorny forest <!-- of Containers and Kubernetes -->
-
 - [ ] ☁️ 31 > [](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
