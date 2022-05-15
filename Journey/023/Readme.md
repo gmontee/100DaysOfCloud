@@ -1,52 +1,158 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/CCdZOITMQoSIrRs283/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 23 - Azure AZ-204 Access resource secrets more securely across services
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today, I'm going to use an Azure Function app utilizing C# code to access a storage account, and then download the contents
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Azure Key Vault a cloud service for securely storing and accessing secrets
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/media/Lab07-Diagram.png" width="600"/>
+</div>
+
+- Implement Secure Cloud Solutions
+  - secure app configuration data by using App Configuration or Azure Key Vault
+  - develop code that uses keys, secrets, and certificates stored in Azure Key Vault
+  - implement Managed Identities for Azure resources
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Secret - anything you want to tightly control access to
+  - API Keys
+  - Passwords
+  - Certificates
+  - Cryptographic Keys
 
-## Try yourself
+☁️
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## My Experience
 
-### Step 1 — Summary of Step
+### Step 0 — Create Prerequisite Resources
 
-![Screenshot](https://via.placeholder.com/500x300)
+Creating the storage account
 
-### Step 1 — Summary of Step
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Grabbing the access keys
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Creating the Azure Key Vault
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Creating a Function app
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 1 — Configure secrets and identities
+
+Configure a system-assigned managed service identity
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Create a Key Vault secret
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Configure a Key Vault access policy
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Create a Key Vault-derived application setting
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 2 — Build an Azure Functions app
+
+Initialize a function project
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Create an HTTP-triggered function
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Configure and read an application setting
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Validate the local function
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Deploy the function using the Azure Functions Core Tools
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Test the Key Vault-derived application setting
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 3 — Access Azure Blob Storage data
+
+Upload a sample storage blob
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Pull and configure the Azure SDK for .NET
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Deploy and validate the Azure Functions app
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Tomorrow, I'm going to learn about
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()

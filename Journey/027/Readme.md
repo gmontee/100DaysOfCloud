@@ -1,52 +1,150 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="" width="500"/>
+</div>
 
-# New post title here
+# Day 27 - Azure AZ-204 Monitor services that are deployed to Azure
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today, I'm going to
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case" align="center">
+  <img src="" width="600"/>
+</div>
+
+- I
+  - s
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️
 
-## Try yourself
+## My Experience
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 0 — Create Prerequisite Resources
 
-### Step 1 — Summary of Step
+C
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+G
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+C
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 1 —
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 2 —
+
+I
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+C
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+V
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+D
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+T
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 3 —
+
+U
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+P
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+D
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Tomorrow, I'm going to learn about
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
