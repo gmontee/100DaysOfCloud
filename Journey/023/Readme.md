@@ -40,25 +40,26 @@
 Creating the storage account
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task0-storage-account.png" width="800"/>
 </div>
 
 Grabbing the access keys
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task0-access-keys.png" width="800"/>
 </div>
 
 Creating the Azure Key Vault
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task0-create-vault.png" width="800"/>
 </div>
 
 Creating a Function app
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task0-create-func1.png" width="800"/>
+  <img src="images/az204-seclab-task0-create-func2.png" width="800"/>
 </div>
 
 ### Task 1 — Configure secrets and identities
@@ -66,25 +67,31 @@ Creating a Function app
 Configure a system-assigned managed service identity
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task1-system-identity.png" width="800"/>
+  <img src="images/az204-seclab-task1-system-identity1.png" width="800"/>
 </div>
 
 Create a Key Vault secret
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task1-generate-keys.png" width="800"/>
+  <img src="images/az204-seclab-task1-generate-keys1.png" width="800"/>
 </div>
 
 Configure a Key Vault access policy
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task1-add-policy.png" width="800"/>
+  <img src="images/az204-seclab-task1-add-policy1.png" width="800"/>
+  <img src="images/az204-seclab-task1-add-policy2.png" width="800"/>
+  <img src="images/az204-seclab-task1-add-policy3.png" width="800"/>
 </div>
 
 Create a Key Vault-derived application setting
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task1-app-key.png" width="800"/>
+  <img src="images/az204-seclab-task1-app-key1.png" width="800"/>
 </div>
 
 ### Task 2 — Build an Azure Functions app
@@ -92,37 +99,42 @@ Create a Key Vault-derived application setting
 Initialize a function project
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-initialize-app.png" width="800"/>
 </div>
 
 Create an HTTP-triggered function
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-initialize-app1.png" width="800"/>
 </div>
 
 Configure and read an application setting
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-app-setting.png" width="800"/>
+  <img src="images/az204-seclab-task2-app-setting1.png" width="800"/>
 </div>
 
 Validate the local function
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-validate-func.png" width="800"/>
+  <img src="images/az204-seclab-task2-validate-func1.png" width="800"/>
 </div>
 
 Deploy the function using the Azure Functions Core Tools
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-deploy-func.png" width="800"/>
 </div>
 
 Test the Key Vault-derived application setting
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task2-test-func.png" width="800"/>
+  <img src="images/az204-seclab-task2-test-func1.png" width="800"/>
+  <img src="images/az204-seclab-task2-test-func2.png" width="800"/>
+  <img src="images/az204-seclab-task2-test-func3.png" width="800"/>
 </div>
 
 ### Task 3 — Access Azure Blob Storage data
@@ -130,24 +142,30 @@ Test the Key Vault-derived application setting
 Upload a sample storage blob
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task3-storage-blob.png" width="800"/>
+  <img src="images/az204-seclab-task3-storage-blob1.png" width="800"/>
+  <img src="images/az204-seclab-task3-storage-blob2.png" width="800"/>
+  <img src="images/az204-seclab-task3-storage-blob3.png" width="800"/>
+  <img src="images/az204-seclab-task3-storage-blob4.png" width="800"/>
 </div>
 
 Pull and configure the Azure SDK for .NET
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task3-azure-sdk.png" width="800"/>
+  <img src="images/az204-seclab-task3-azure-sdk1.png" width="800"/>
 </div>
 
 Deploy and validate the Azure Functions app
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-seclab-task4-validate-func" width="800"/>
+  <img src="images/az204-seclab-task4-validate-func1" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
 
-☁️
+☁️ Failure again!
 
 ## Next Steps
 
