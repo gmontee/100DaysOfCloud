@@ -58,7 +58,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 17 > [Azure AZ-204 Implement IaaS Solutions: Containers in Azure](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [Azure AZ-204 Azure App Service Web Apps: Diagnostic Logs](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [Azure AZ-204 Implement Azure Functions](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md) <!-- Azure AZ-204 Retrieve Azure Storage via Azure Storage SDK for .NET -->
+- [ ] ☁️ 20 > [Azure AZ-204 Retrieve Azure Storage via Azure Storage SDK for .NET](Journey/020/Readme.md)
 - [ ] ☁️ 21 > [](Journey/021/Readme.md) <!-- Azure AZ-204 Construct a Polyglot Data Solution -->
 - [ ] ☁️ 22 > [](Journey/022/Readme.md) <!-- Azure AZ-204 Authenticate by using OpenID Connect, MSAL, and .NET SDKs -->
 - [ ] ☁️ 23 > [](Journey/023/Readme.md) <!-- Azure AZ-204 Access resource secrets more securely across services -->
