@@ -122,4 +122,4 @@ Tomorrow, I'm going to work with CosmosDB.
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6931983410584317952-aMC8?utm_source=linkedin_share&utm_medium=member_desktop_web)
