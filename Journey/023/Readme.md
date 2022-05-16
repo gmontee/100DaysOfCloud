@@ -31,8 +31,6 @@
   - Certificates
   - Cryptographic Keys
 
-☁️
-
 ## My Experience
 
 ### Step 0 — Create Prerequisite Resources
@@ -159,17 +157,21 @@ Pull and configure the Azure SDK for .NET
 Deploy and validate the Azure Functions app
 
 <div align="center">
-  <img src="images/az204-seclab-task4-validate-func" width="800"/>
-  <img src="images/az204-seclab-task4-validate-func1" width="800"/>
+  <img src="images/az204-seclab-task4-validate-func.png" width="800"/>
+  <img src="images/az204-seclab-task4-validate-func1.png" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
 
-☁️ Failure again!
+☁️ So close, yet, I'm met with failure again! I created an ARM template and parameters of the resource group and it's resources, and then deleted the rg. I came back to it later, using the ARM files to deploy the resources again. Unfortunately, the deployment failed, saying anomalies detected.
+
+☁️ Yesterday, I believe the friction was between .NET Core 3.1 and .NET 6; the lab was originally created with the former, but I had .NET 6 installed for other labs and projects. For today, one area I might've goofed, was copying or inputting quotation marks in regards to the secret.
+
+☁️ Alright, I've hit a few bumps. Obviously, doesn't feel great, but I need to keep trucking on. I have two weeks left until the exam.
 
 ## Next Steps
 
-Tomorrow, I'm going to learn about
+Tomorrow, I'm going to learn about creating a multi-tier solution using Azure services.
 
 ## Social Proof
 
