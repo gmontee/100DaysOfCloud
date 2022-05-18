@@ -60,7 +60,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 19 > [Azure AZ-204 Implement Azure Functions](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [Azure AZ-204 Retrieve Azure Storage via Azure Storage SDK for .NET](Journey/020/Readme.md)
 - [ ] ☁️ 21 > [Azure AZ-204 Construct a Polyglot Data Solution](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md) <!-- Azure AZ-204 Authenticate by using OpenID Connect, MSAL, and .NET SDKs -->
+- [ ] ☁️ 22 > [Azure AZ-204 Authenticate by using OpenID Connect, MSAL, and .NET SDKs](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md) <!-- Azure AZ-204 Access resource secrets more securely across services -->
 - [ ] ☁️ 24 > [](Journey/024/Readme.md) <!-- Azure AZ-204 Create a multi-tier solution by using Azure services -->
 - [ ] ☁️ 25 > [](Journey/025/Readme.md) <!-- Azure AZ-204 Publish and subscribe to Event Grid events -->
