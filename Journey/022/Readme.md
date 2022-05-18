@@ -117,13 +117,13 @@ Initially, I ran into a file-scoped namespace is not available in C$ 8.0; perhap
   <img src="images/az204-authlab-task4-lang-version.png" width="800"/>
 </div>
 
-Next mole, was complaining about ILogger<>; easy fix with Microsoft.Extensions.Logging library
+Next error, was complaining about ILogger<>; easy fix with Microsoft.Extensions.Logging library
 
 <div align="center">
   <img src="images/az204-auhtlab-task4-logging-error.png" width="800"/>
 </div>
 
-After that, it was complaining about the WebApplication reference in the program file wasn't in the current context. Looking at possibly rebuilding the entire file, I just don't have time to fool with it. I'm under the gun for an end of the month deadline.
+After that, it was complaining about the WebApplication reference in the program file wasn't in the current context. Looking at possibly rebuilding the entire file or app, I just don't have time to fool with it. I'm under the gun for an end of the month deadline.
 
 <!--
 Generating self-signed certificates
@@ -156,4 +156,4 @@ Tomorrow, I'm going to learn about accessing resource secrets more securely acro
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6932691833995108352-cA-I?utm_source=linkedin_share&utm_medium=member_desktop_web)
