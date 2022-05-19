@@ -167,7 +167,7 @@ Deploy and validate the Azure Functions app
 
 ☁️ Yesterday, I believe the friction was between .NET Core 3.1 and .NET 6; the lab was originally created with the former, but I had .NET 6 installed for other labs and projects. For today, one area I might've goofed, was copying or inputting quotation marks in regards to the secret.
 
-☁️ Alright, I've hit a few bumps. Obviously, doesn't feel great, but I need to keep trucking on. I have two weeks left until the exam.
+☁️ Alright, I've hit a few bumps. Obviously, doesn't feel great, but I need to keep trucking on. I have a week left until the exam.
 
 ## Next Steps
 
@@ -175,4 +175,4 @@ Tomorrow, I'm going to learn about creating a multi-tier solution using Azure se
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6933047799831826432-peSV?utm_source=linkedin_share&utm_medium=member_desktop_web)
