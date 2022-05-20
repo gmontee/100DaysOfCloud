@@ -6,7 +6,7 @@
 
 ## Introduction
 
-☁️ Today, I'm going to
+☁️ Today, I'm going to use the app services to deploy an app from an image, using httpbin which is a open source HTTP request and response service. I'll create an API proxy to manupiate requests and responses using the Azure API Management service.
 
 ## Prerequisite
 
