@@ -62,7 +62,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 21 > [Azure AZ-204 Construct a Polyglot Data Solution](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [Azure AZ-204 Authenticate by using OpenID Connect, MSAL, and .NET SDKs](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [Azure AZ-204 Access resource secrets more securely across services](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md) <!-- Azure AZ-204 Create a multi-tier solution by using Azure services -->
+- [ ] ☁️ 24 > [Azure AZ-204 Create a multi-tier solution by using Azure services](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md) <!-- Azure AZ-204 Publish and subscribe to Event Grid events -->
 - [ ] ☁️ 26 > [](Journey/026/Readme.md) <!-- Azure AZ-204 Asynchronously process messages by using Azure Service Bus Queues -->
 - [ ] ☁️ 27 > [](Journey/027/Readme.md) <!-- Azure AZ-204 Monitor services that are deployed to Azure -->
