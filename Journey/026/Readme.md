@@ -6,7 +6,7 @@
 
 ## Introduction
 
-☁️ Today, I'm going to
+☁️ Today, I'm going to read and delete messages from the Azure Service Bus queue using the .NET library
 
 ## Prerequisite
 
@@ -15,11 +15,12 @@
 ## Use Case
 
 <div id="use case" align="center">
-  <img src="" width="600"/>
+  <img src="https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/media/Lab10-Diagram.png" width="600"/>
 </div>
 
-- I
-  - s
+- Develop message-based solutions
+  - **implement solutions that use Azure Service Bus**
+  - implement solutions that use Azure Queue Storage queues
 
 ## Cloud Research
 
@@ -29,109 +30,35 @@
 
 ### Step 0 — Create Prerequisite Resources
 
-C
+Create an Azure Service Bus queue
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-G
+### Task 1 — Create a .NET Core project to publish messages to a Service Bus queue
+
+Create a .NET Core project
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Publish messages to an Azure Service Bus queue
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+### Task 2 — Create a .NET Core project to read messages from a Service Bus queue
+
+Create a .NET project
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 1 —
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 2 —
-
-I
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-V
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-D
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-T
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 3 —
-
-U
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-P
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-D
+Read messages from an Azure Service Bus queue
 
 <div align="center">
   <img src="images/" width="800"/>
