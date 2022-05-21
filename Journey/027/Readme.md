@@ -4,9 +4,11 @@
 
 # Day 27 - Azure AZ-204 Monitor services that are deployed to Azure
 
+https://www.youtube.com/watch?v=I3Lo4LqbU08&t=0s
+
 ## Introduction
 
-☁️ Today, I'm going to
+☁️ Today, I'm going to configure and test Application Insights logging of an web API app
 
 ## Prerequisite
 
@@ -15,11 +17,13 @@
 ## Use Case
 
 <div id="use case" align="center">
-  <img src="" width="600"/>
+  <img src="https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/media/Lab11-Diagram.png" width="600"/>
 </div>
 
-- I
-  - s
+- Troubleshoot solutions by using metrics and log data
+  - **configure an app or service to use Application Insights**
+  - review and analyze metrics and log data
+  - implement Application Insights web tests and alerts
 
 ## Cloud Research
 
@@ -29,109 +33,119 @@
 
 ### Step 0 — Create Prerequisite Resources
 
-C
+Create an Application Insights resource
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-G
+### Task 1 — Create an Azure Web API resource
+
+Create an Azure Web API resource
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Configure web API autoscale options
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+### Task 2 — Monitor a local web API by using Application Insights
+
+Build a .NET Web API project
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 1 —
-
-C
+Update app code to disable HTTPS and use Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Test an API application locally
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Review metrics in Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+### Task 3 — Monitor a web API using Application Insights
+
+Deploy an application to the web API
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 2 —
-
-I
+Configure in-depth metric collection for Web Apps
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Get updated metrics in Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+View real-time metrics in Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-V
+### Task 4 — Monitor a web API using Application Insights
+
+Deploy an application to the web API
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-D
+Configure in-depth metric collection for Web Apps
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-T
+Get updated metrics in Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 3 —
-
-U
+View real-time metrics in Application Insights
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-P
+### Task 5 — Application Insights logging with .NET Core
+
+Configure logging for a .NET Core API app
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-D
+Test logging of a .NET Core API app
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+Review the Application Insights logging
 
 <div align="center">
   <img src="images/" width="800"/>
