@@ -15,11 +15,12 @@
 ## Use Case
 
 <div id="use case" align="center">
-  <img src="" width="600"/>
+  <img src="https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/media/Lab09-Diagram.png" width="600"/>
 </div>
 
-- I
-  - s
+- Develop event-based solutions
+  - **implement solutions that use Azure Event Grid**
+  - implement solutions that use Azure Event Hub
 
 ## Cloud Research
 
@@ -29,109 +30,71 @@
 
 ### Step 0 — Create Prerequisite Resources
 
-C
+Review the Microsoft.EventGrid provider registration
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-G
+Create a custom Event Grid topic
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Deploy the Azure Event Grid viewer to a web app
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+### Task 1 — Create an Event Grid subscription
+
+Access the Event Grid Viewer web application
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 1 —
-
-C
+Create a new subscription
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Observe the subscription validation event
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Record subscription credentials
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+### Task 2 — Publish Event Grid events from .NET
+
+Create a .NET project
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-### Task 2 —
-
-I
+Modify the Program class to connect to Event Grid
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
+Publish new events
 
 <div align="center">
   <img src="images/" width="800"/>
 </div>
 
-C
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-V
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-D
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-T
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 3 —
-
-U
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-P
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-D
+Observe published events
 
 <div align="center">
   <img src="images/" width="800"/>
