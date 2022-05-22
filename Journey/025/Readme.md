@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/xUPGceTUp7OuHbYjUQ/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/9V1r4dxCWCa9Op1FwA/giphy.gif" width="500"/>
 </div>
 
 # Day 25 - Azure AZ-204 Publish and subscribe to Event Grid events
