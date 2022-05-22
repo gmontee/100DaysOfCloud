@@ -1,10 +1,8 @@
 <div id="cover photo" align="center">
-  <img src="" width="500"/>
+  <img src="https://media.giphy.com/media/YN6qUXj4HdXoY/giphy.gif" width="500"/>
 </div>
 
 # Day 27 - Azure AZ-204 Monitor services that are deployed to Azure
-
-https://www.youtube.com/watch?v=I3Lo4LqbU08&t=0s
 
 ## Introduction
 
@@ -12,7 +10,7 @@ https://www.youtube.com/watch?v=I3Lo4LqbU08&t=0s
 
 ## Prerequisite
 
-☁️
+☁️ Application Insights monitors Azure services for availability, performance, failures, and usage by combining data from Application Insights SDKs with Azure Diagnostics data from your cloud services
 
 ## Use Case
 
@@ -27,7 +25,15 @@ https://www.youtube.com/watch?v=I3Lo4LqbU08&t=0s
 
 ## Cloud Research
 
-☁️
+☁️ Application Insights is a feature of Azure Monitor
+
+- Application Insights provides:
+  - automatically detect performance issues
+  - help diagnose issues
+  - see what users are actually doing in the app
+  - help continuously improve app performance and usability
+
+☁️ Telemetry: the automatic measurement and wireless transmission of data from remote sources
 
 ## My Experience
 
@@ -36,7 +42,8 @@ https://www.youtube.com/watch?v=I3Lo4LqbU08&t=0s
 Create an Application Insights resource
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task0-create-app-insights.png" width="800"/>
+  <img src="images/az204-insightlab-task0-create-app-insights1.png" width="800"/>
 </div>
 
 ### Task 1 — Create an Azure Web API resource
@@ -44,13 +51,16 @@ Create an Application Insights resource
 Create an Azure Web API resource
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task1-create-web-app.png" width="800"/>
+  <img src="images/az204-insightlab-task1-create-web-app1.png" width="800"/>
+  <img src="images/az204-insightlab-task1-create-web-app2.png" width="800"/>
 </div>
 
 Configure web API autoscale options
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task1-auto-scale.png" width="800"/>
+  <img src="images/az204-insightlab-task1-auto-scale1.png" width="800"/>
 </div>
 
 ### Task 2 — Monitor a local web API by using Application Insights
@@ -58,106 +68,38 @@ Configure web API autoscale options
 Build a .NET Web API project
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task2-dotnet-app.png" width="800"/>
+  <img src="images/az204-insightlab-task2-dotnet-app1.png" width="800"/>
+  <img src="images/az204-insightlab-task2-dotnet-app2.png" width="800"/>
+  <img src="images/az204-insightlab-task2-dotnet-app3.png" width="800"/>
 </div>
 
 Update app code to disable HTTPS and use Application Insights
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task2-app-code.png" width="800"/>
 </div>
 
 Test an API application locally
 
 <div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task2-local-test.png" width="800"/>
+  <img src="images/az204-insightlab-task2-local-test1.png" width="800"/>
 </div>
 
 Review metrics in Application Insights
 
 <div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 3 — Monitor a web API using Application Insights
-
-Deploy an application to the web API
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Configure in-depth metric collection for Web Apps
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Get updated metrics in Application Insights
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-View real-time metrics in Application Insights
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 4 — Monitor a web API using Application Insights
-
-Deploy an application to the web API
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Configure in-depth metric collection for Web Apps
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Get updated metrics in Application Insights
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-View real-time metrics in Application Insights
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 5 — Application Insights logging with .NET Core
-
-Configure logging for a .NET Core API app
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Test logging of a .NET Core API app
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-Review the Application Insights logging
-
-<div align="center">
-  <img src="images/" width="800"/>
+  <img src="images/az204-insightlab-task2-review-metrics.png" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
 
-☁️
+☁️ Obviously, just scratching the mere surface of what is possible with Application Insights
 
 ## Next Steps
 
-Tomorrow, I'm going to learn about
+Tomorrow, I'm going to learn about utilize Azure Content Delivery Network
 
 ## Social Proof
 
