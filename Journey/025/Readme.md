@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/9V1r4dxCWCa9Op1FwA/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/9V1r4dxCWCa9Op1FwA/giphy.gif" width="300"/>
 </div>
 
 # Day 25 - Azure AZ-204 Publish and subscribe to Event Grid events
@@ -120,4 +120,4 @@ Tomorrow, I'm going to learn about reading and deleting message from the Azure S
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6934499037052104705-omXA?utm_source=linkedin_share&utm_medium=member_desktop_web)
