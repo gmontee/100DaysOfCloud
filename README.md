@@ -67,25 +67,26 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 26 > [](Journey/026/Readme.md) <!-- Azure AZ-204 Asynchronously process messages by using Azure Service Bus Queues -->
 - [ ] ☁️ 27 > [](Journey/027/Readme.md) <!-- Azure AZ-204 Monitor services that are deployed to Azure -->
 - [ ] ☁️ 28 > [](Journey/028/Readme.md) <!-- Azure AZ-204 Enhance a web application by using the Azure Content Delivery Network -->
+- [ ] ☁️ 29 > [](Journey/029/Readme.md) <!-- Azure AZ-204 Exam Day -->
 
-## Into the bushy, thorny forest
+## Navigating across the ocean to Kubernetes and Cloud Native Associate Certification
 
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
-- [ ] ☁️ 37 > [](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 30 > [](Journey/030/Readme.md) <!-- KCNA - Introduction to Kubernetes -->
+- [ ] ☁️ 31 > [](Journey/031/Readme.md) <!-- KCNA - Kubernetes Resources -->
+- [ ] ☁️ 32 > [](Journey/032/Readme.md) <!-- KCNA - Hands-on using Pod Management Resources in Kubernetes -->
+- [ ] ☁️ 33 > [](Journey/033/Readme.md) <!-- KCNA - Kubernetes API -->
+- [ ] ☁️ 34 > [](Journey/034/Readme.md) <!-- KCNA - Hands-on troubleshooting Kubernetes Scheduling -->
+- [ ] ☁️ 35 > [](Journey/035/Readme.md) <!-- KCNA - Container Orchestration -->
+- [ ] ☁️ 36 > [](Journey/036/Readme.md) <!-- KCNA - Hands-on using Service Types in Kubernetes -->
+- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- KCNA - Hands-on using a Service Mesh in Kubernetes -->
+- [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- KCNA - Kubernetes Architecture -->
+- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- KCNA - Kubernetes Observability -->
+- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- KCNA - Hands-on exploring Log and Metric data in Kubernetes -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- KCNA - Kubernetes GitOps -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- KCNA Exam Day! -->
 
 ## Trekking the Terraformed dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
@@ -122,7 +123,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 69 > [](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 
-## Resting at the Lagoon
+## Resting at the Lagoon / Into the bushy, thorny forest 
 
 - [ ] ☁️ 71 > [](Journey/071/Readme.md)
 - [ ] ☁️ 72 > [](Journey/072/Readme.md)
