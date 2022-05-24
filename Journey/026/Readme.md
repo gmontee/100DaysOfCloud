@@ -103,4 +103,4 @@ Tomorrow, I'm going to learn about streaming application metrics to Application 
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6934858322877591552-zhHV?utm_source=linkedin_share&utm_medium=member_desktop_web)
