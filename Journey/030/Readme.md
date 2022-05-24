@@ -1,52 +1,92 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/26zz9Wgu0FZxF5hzW/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 30 - Introduction to Docker
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to start learning about Docker
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Explain
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="" width="500"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Research
 
-## Try yourself
+## My Experience
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Task 1 — Install Docker Engine via it's repository
 
-### Step 1 — Summary of Step
+First, I need to make sure everything is up-to-date, and then ensure prerequisites are installed
 
-![Screenshot](https://via.placeholder.com/500x300)
+- ca-certificates: used to verify identity of 3rd parties, and encrypt data between you and them
+- curl: stands for client URL; used to download/upload data using protocols like HTTP, HTTPS, SCP, SFTP, and FTP
+- gnupg: stands for GNU Privacy Guard; used to encrypt files or sign files for integrity and authenticity
+- lsb-release: lsb stands for Linux Standard Base; common runtime environment for 3rd party packages
 
-### Step 1 — Summary of Step
+<div align="center">
+  <img src="images/docker-start-update-1.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Now, I need to add Docker's official GPG key, which in the next step will be used to authenticate the repository
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/docker-start-prereqs-2.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Adding the docker repository
+
+<div align="center">
+  <img src="images/docker-start-add-repo-3.png" width="800"/>
+</div>
+
+Now to install the Docker Engine
+
+- Docker-CE: community edition of the docker engine
+- Docker-CE-CLI: command line interface for docker engine
+- Containerd.io: daemon, manages the complete container lifecycle of it's host system
+- Docker.Compose-plugin: tool for defining and running multi-container Docker applications
+
+<div align="center">
+  <img src="images/docker-start-install-engine-4.png" width="800"/>
+  <img src="images/docker-start-install-engine-5.png" width="800"/>
+</div>
+
+I initially had trouble running the Hello World image, so I had to start the docker service
+
+<div align="center">
+  <img src="images/docker-start-hello-world-6.png" width="800"/>
+</div>
+
+### Task 2 — Summary of Step
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
+
+### Task 3 — Summary of Step
+
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+(Result) Describe your personal outcome, and lessons learned.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next I'm going to
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
