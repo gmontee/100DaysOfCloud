@@ -10,17 +10,27 @@ Today, I'm going to start learning about Docker
 
 ## Prerequisite
 
-☁️ Explain
+☁️ Docker is an open-source utilize that automates the deployment and management of programs inside software containers
 
 ## Use Case
 
 <div id="use case image" align="center">
-  <img src="" width="500"/>
+  <img src="https://jfrog--c.documentforce.com/servlet/servlet.ImageServer?id=01569000008kq46&oid=00D20000000M3v0&lastMod=1631618766000" width="500"/>
 </div>
 
 ## Cloud Research
 
-☁️ Research
+☁️ Docker Engine is an application used to build, run, and manage Docker containers
+
+☁️ Docker Daemon is a component that listens to and processes API requests
+
+☁️ Docker Client is the primary user interface
+
+☁️ Docker Images are lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries, and settings
+
+☁️ Docker Container is a virtualized runtime environment where users can isolate applications from the underlying system
+
+☁️ Docker Registry is a storage and distribution system for Docker images
 
 ## My Experience
 
@@ -67,21 +77,14 @@ I initially had trouble running the Hello World image, so I had to start the doc
   <img src="images/docker-start-hello-world-6.png" width="800"/>
 </div>
 
-### Task 2 — Summary of Step
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
-### Task 3 — Summary of Step
-
-<div align="center">
-  <img src="images/" width="800"/>
-</div>
-
 ## ☁️ Cloud Outcome
 
-(Result) Describe your personal outcome, and lessons learned.
+☁️ To answer the question "What problem does Docker solve?", it simplifies the process of installing, running, and distributing software.
+
+- A containerized application is more portable and can be deployed nearly anywhere.
+- Containers do not contain an operating system, thus have a smaller footprint, making it faster to create and start
+- Containers support isolation requirements, since they are independent
+- Higher scalability since many containers can be placed on a single host
 
 ## Next Steps
 
