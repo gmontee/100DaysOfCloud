@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png">
+  <img src="images/100daysofcloud-banner.png">
 </p>
 
 ## George Montee's Cloud Journey
