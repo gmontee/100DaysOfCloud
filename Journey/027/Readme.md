@@ -103,4 +103,4 @@ Tomorrow, I'm going to learn about utilize Azure Content Delivery Network
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6935235821570519041-NoiN?utm_source=linkedin_share&utm_medium=member_desktop_web)
