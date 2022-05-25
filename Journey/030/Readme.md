@@ -88,7 +88,7 @@ I initially had trouble running the Hello World image, so I had to start the doc
 
 ## Next Steps
 
-Next I'm going to
+Next I'm going to jump into it and run some containers!
 
 ## Social Proof
 
