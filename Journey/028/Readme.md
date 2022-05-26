@@ -137,4 +137,4 @@ Tomorrow, I'm going to take the AZ-204 Azure Developer exam!
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6935590185220915200-rM9G?utm_source=linkedin_share&utm_medium=member_desktop_web)
