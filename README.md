@@ -66,14 +66,14 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 25 > [Azure AZ-204 Publish and subscribe to Event Grid events](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [Azure AZ-204 Asynchronously process messages by using Azure Service Bus Queues](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [Azure AZ-204 Monitor services that are deployed to Azure](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md) <!-- Azure AZ-204 Enhance a web application by using the Azure Content Delivery Network -->
+- [ ] ☁️ 28 > [Azure AZ-204 Enhance a web application by using the Azure Content Delivery Network](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md) <!-- Azure AZ-204 Exam Day -->
 
 ## Headed to the Docker coast
 
 - [ ] ☁️ 30 > [](Journey/030/Readme.md) <!-- Introduction to Docker -->
-- [ ] ☁️ 31 > [](Journey/031/Readme.md) <!--  -->
-- [ ] ☁️ 32 > [](Journey/032/Readme.md) <!--  -->
+- [ ] ☁️ 31 > [](Journey/031/Readme.md) <!-- Docker - Running a Container -->
+- [ ] ☁️ 32 > [](Journey/032/Readme.md) <!-- Docker - Logging in Docker -->
 - [ ] ☁️ 33 > [](Journey/033/Readme.md) <!--  -->
 - [ ] ☁️ 34 > [](Journey/034/Readme.md) <!--  -->
 - [ ] ☁️ 35 > [](Journey/035/Readme.md) <!--  -->
