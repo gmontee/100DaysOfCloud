@@ -15,7 +15,7 @@ Today, I'm going to learn about Docker Swarm
 ## Use Case
 
 <div id="use case image" align="center">
-  <img src="https://docs.docker.com/engine/swarm/images/swarm-diagram.png" width="300"/>
+  <img src="https://docs.docker.com/engine/swarm/images/swarm-diagram.png" width="600"/>
 </div>
 
 - Features
