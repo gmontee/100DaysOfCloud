@@ -82,7 +82,7 @@ Creating the Storage Account for storing logs
 Finding the web app address
 
 <div align="center">
-  <img src="images/az204-loglab-task2-webpage.png" width="800"/>
+  <img src="images/az204-loglab-task2-webpage.png" width="1000"/>
 </div>
 
 Turning on logging options
