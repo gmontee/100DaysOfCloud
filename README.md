@@ -23,7 +23,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 - [x] AZ-900 Azure Fundamentals
 - [x] AZ-104 Azure Administrator Associate
-- [ ] AZ-204 Azure Developer Associate
+- [x] AZ-204 Azure Developer Associate
 - [ ] AZ-500 Azure Security Engineer
 - [ ] AZ-305 Azure Solutions Architect Expert
 - [ ] AZ-400 Azure DevOps Engineer Expert
