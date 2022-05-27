@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="" width="500"/>
+  <img src="https://media.giphy.com/media/VgICBezSRVY8jx34TN/giphy.gif" width="500"/>
 </div>
 
 # AZ-204 Azure Developer Exam Day!
@@ -56,11 +56,11 @@ For taking pracitice exams, I went with [Whizlabs' AZ-204 Microsoft Azure Develo
 
 ## ☁️ Cloud Outcome
 
-Outcome?
+VICTORY! I did it. That was soooooo intense. Working within a IDE or Text Editor you get extremely use to having autocomplete, and the ease of looking up command line inputs or code examples in the Microsoft Docs. 
 
 ## Next Steps
 
-Next is to start learning Kubernetes; at least enought to make me dangerous!
+Next is to start learning Docker; at least enought to make me dangerous!
 
 ## Social Proof
 
