@@ -19,7 +19,7 @@ Here are some quick, high-level concepts we're looking at today:
 ## Use Case
 
 <div id="use case" align="center">
-  <img src="" width="600"/>
+  <img src="https://d22e4d61ky6061.cloudfront.net/sites/default/files/Azure%20Virtual%20Machines_0.png" width="200"/>
 </div>
 
 - Implement Infrastructure-as-a-Service Solutions:
@@ -79,13 +79,13 @@ Caution: Stop-AzVM does not deallocate the VM
 Creating the Resource Group for this exercise
 
 <div align="center">
-  <img src="images/az204-vmlab-task1-create-rg.png" width="600"/>
+  <img src="images/az204-vmlab-task1-create-rg.png" width="800"/>
 </div>
 
 Creating the Virtual Machine
 
 <div align="center">
-  <img src="images/az204-vmlab-task1-create-vm.png" width="600"/>
+  <img src="images/az204-vmlab-task1-create-vm.png" width="800"/>
 </div>
 
 ### Task 2 — Connect to newly created VM
@@ -93,7 +93,7 @@ Creating the Virtual Machine
 Finding the new public IP address of the VM
 
 <div align="center">
-  <img src="images/az204-vmlab-task2-pip-vm.png" width="600"/>
+  <img src="images/az204-vmlab-task2-pip-vm.png" width="800"/>
 </div>
 
 ### Task 3 — Reviewing Marketplace Images
@@ -104,13 +104,13 @@ Get-AzVMImagePublisher -Location "southcentralus"
 Here I'm see what the Windows Server Publisher has available
 
 <div align="center">
-  <img src="images/az204-vmlab-task3-image-offerings.png" width="600"/>
+  <img src="images/az204-vmlab-task3-image-offerings.png" width="800"/>
 </div>
 
 Diving further down, I see what Windows Server SKUs are available
 
 <div align="center">
-  <img src="images/az204-vmlab-task3-server-skus.png" width="600"/>
+  <img src="images/az204-vmlab-task3-server-skus.png" width="800"/>
 </div>
 
 ### Task 4 — VM Sizes
@@ -118,13 +118,13 @@ Diving further down, I see what Windows Server SKUs are available
 Here I check out VM sizes are available for my region. FYI, this list scrolls on or a bit.
 
 <div align="center">
-  <img src="images/az204-vmlab-task4-vm-sizes.png" width="600"/>
+  <img src="images/az204-vmlab-task4-vm-sizes.png" width="800"/>
 </div>
 
 Resizing myVM from Standard_D2s_v2 to Standard_DS3_v2
 
 <div align="center">
-  <img src="images/az204-vmlab-task4-resize-vm.png" width="600"/>
+  <img src="images/az204-vmlab-task4-resize-vm.png" width="800"/>
 </div>
 
 ### Task 5 — VM Power States
@@ -132,7 +132,7 @@ Resizing myVM from Standard_D2s_v2 to Standard_DS3_v2
 Here I'm using PowerShell to check the power state of myVM, and the stopping it.
 
 <div align="center">
-  <img src="images/az204-vmlab-task5-vm-states.png" width="600"/>
+  <img src="images/az204-vmlab-task5-vm-states.png" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
