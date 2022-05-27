@@ -44,19 +44,19 @@ First, I need to make sure everything is up-to-date, and then ensure prerequisit
 - lsb-release: lsb stands for Linux Standard Base; common runtime environment for 3rd party packages
 
 <div align="center">
-  <img src="images/docker-start-update-1.png" width="800"/>
+  <img src="images/docker-start-update-1.png" width="1000"/>
 </div>
 
 Now, I need to add Docker's official GPG key, which in the next step will be used to authenticate the repository
 
 <div align="center">
-  <img src="images/docker-start-prereqs-2.png" width="800"/>
+  <img src="images/docker-start-prereqs-2.png" width="1000"/>
 </div>
 
 Adding the docker repository
 
 <div align="center">
-  <img src="images/docker-start-add-repo-3.png" width="800"/>
+  <img src="images/docker-start-add-repo-3.png" width="1000"/>
 </div>
 
 Now to install the Docker Engine
@@ -67,14 +67,14 @@ Now to install the Docker Engine
 - Docker.Compose-plugin: tool for defining and running multi-container Docker applications
 
 <div align="center">
-  <img src="images/docker-start-install-engine-4.png" width="800"/>
-  <img src="images/docker-start-install-engine-5.png" width="800"/>
+  <img src="images/docker-start-install-engine-4.png" width="1000"/>
+  <img src="images/docker-start-install-engine-5.png" width="1000"/>
 </div>
 
 I initially had trouble running the Hello World image, so I had to start the docker service
 
 <div align="center">
-  <img src="images/docker-start-hello-world-6.png" width="800"/>
+  <img src="images/docker-start-hello-world-6.png" width="1000"/>
 </div>
 
 ## ☁️ Cloud Outcome
