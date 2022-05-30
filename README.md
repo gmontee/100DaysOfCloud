@@ -69,12 +69,12 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 28 > [Azure AZ-204 Enhance a web application by using the Azure Content Delivery Network](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [Azure AZ-204 Exam Day](Journey/029/Readme.md)
 
-## Headed to the Docker coast
+## Making my way down the Docker coast
 
 - [ ] ☁️ 30 > [](Journey/030/Readme.md) <!-- Introduction to Docker -->
 - [ ] ☁️ 31 > [](Journey/031/Readme.md) <!-- Docker - Running a Container -->
 - [ ] ☁️ 32 > [](Journey/032/Readme.md) <!-- Docker - Logging in Docker -->
-- [ ] ☁️ 33 > [](Journey/033/Readme.md) <!--  -->
+- [ ] ☁️ 33 > [](Journey/033/Readme.md) <!-- Docker - Swarm -->
 - [ ] ☁️ 34 > [](Journey/034/Readme.md) <!--  -->
 - [ ] ☁️ 35 > [](Journey/035/Readme.md) <!--  -->
 - [ ] ☁️ 36 > [](Journey/036/Readme.md) <!--  -->
