@@ -92,4 +92,4 @@ Next I'm going to jump into it and run some containers!
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6937399986305327104-xoYq?utm_source=linkedin_share&utm_medium=member_desktop_web)
