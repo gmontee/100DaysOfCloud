@@ -72,7 +72,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 ## Making my way down the Docker coast
 
 - [ ] ☁️ 30 > [Introduction to Docker](Journey/030/Readme.md)
-- [ ] ☁️ 31 > [](Journey/031/Readme.md) <!-- Docker - Running a Container -->
+- [ ] ☁️ 31 > [Docker - Running a Container](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md) <!-- Docker - Logging in Docker -->
 - [ ] ☁️ 33 > [](Journey/033/Readme.md) <!-- Docker - Swarm -->
 - [ ] ☁️ 34 > [](Journey/034/Readme.md) <!--  -->
