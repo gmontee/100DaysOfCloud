@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Today, I'm going to run some containers
+Today, I'm going to run a container to host nginx
 
 ## Prerequisite
 
@@ -60,7 +60,7 @@ docker run [OPTIONS] IMAGE[:TAG] [COMMAND] [ ARG...]
 
 ## My Experience
 
-### Task 1 — Run NNGINX in a container
+### Task 1 — Run Nginx in a container
 
 I'm going to start up a container hosting nginx, running port 8080, and it's going to run in the background so that I can have my terminal back
 
@@ -111,4 +111,4 @@ Next, I'm going to learn about logging in Docker
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post]([link](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6938128377941827584-6Ley?utm_source=linkedin_share&utm_medium=member_desktop_web)
