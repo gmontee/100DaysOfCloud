@@ -1,52 +1,102 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="" width="500"/>
+</div>
 
-# New post title here
+# Day 43 - Introduction to Ansible
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Ansible is an IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="https://libs.websoft9.com/Websoft9/DocsPicture/zh/ansible/ansible-guis-websoft9.png" width="500"/>
+</div>
+
+Use Case Scenarios (What can I automate?)
+
+- Mass Deployments
+- Scaling
+- Migrating Environments
+- Failure Prevention
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️
 
-## Try yourself
+- Advantages
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  - Automated deployments
+  - Manage multi-server systems
+  - Make configurations one time
+  - Produce reliable and repeatable systems
+  - Reduce human error
 
-### Step 1 — Summary of Step
+- Infrastructure as Code
 
-![Screenshot](https://via.placeholder.com/500x300)
+  - Build entire system in code
+  - Leverage source control
+  - Roll back changes (if needed)
+  - Share code that was previously hidden
 
-### Step 1 — Summary of Step
+- Features
+  - Written in Python
+  - Script commands using YAML syntax
+  - Sends commands to nodes via SSH
+  - Commands are executed sequentially on each node
+  - Each node runes commands in parallel
 
-![Screenshot](https://via.placeholder.com/500x300)
+## My Experience
 
-### Step 3 — Summary of Step
+### Task 1 — Setup Inventory
 
-![Screenshot](https://via.placeholder.com/500x300)
+First, I need to create SSH keys that I will use to access my servers
+
+<div align="center">
+  <img src="images/ansible-setuplab-task1-create-key-pair-1.png" width="800"/>
+  <img src="images/ansible-setuplab-task1-create-key-pair-2.png" width="800"/>
+  <img src="images/ansible-setuplab-task1-create-key-pair-3.png" width="800"/>
+</div>
+
+Using AWS CloudFormation, and [a YAML script](https://github.com/ACloudGuru-Resources/Course_Introduction_to_Ansible/blob/master/02_02_Introduction_To_Ansible/setup-env.yml), to create 2 servers and 1 load balancer
+
+<div align="center">
+  <img src="images/ansible-setuplab-task1-cloud-formation-4.png" width="800"/>
+  <img src="images/ansible-setuplab-task1-cloud-formation-5.png" width="800"/>
+  <img src="images/ansible-setuplab-task1-cloud-formation-6.png" width="800"/>
+</div>
+
+### Task 2 — Installing Ansible
+
+I'm using a Linux distro, and already have Python 3.x installed
+
+<div align="center">
+  <img src="images/ansible-setuplab-task2-install-ansible-7" width="800"/>
+  <img src="images/ansible-setuplab-task2-install-ansible-8" width="800"/>
+  <img src="images/ansible-setuplab-task2-install-ansible-9" width="800"/>
+</div>
+
+### Task 3 — Ensuring End-to-End
+
+Using the ssh key created earlier, I ssh into the vm's, ensuring I have access
+
+<div align="center">
+  <img src="images/ansible-setuplab-task2-end-to-end-10.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
