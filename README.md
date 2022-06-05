@@ -75,29 +75,29 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 31 > [Docker - Running a Container](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [Docker - Logging in Docker](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md) <!-- Docker - Swarm -->
-- [ ] ☁️ 34 > [](Journey/034/Readme.md) <!--  -->
-- [ ] ☁️ 35 > [](Journey/035/Readme.md) <!--  -->
-- [ ] ☁️ 36 > [](Journey/036/Readme.md) <!--  -->
-- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!--  -->
-- [ ] ☁️ 38 > [](Journey/038/Readme.md) <!--  -->
-- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!--  -->
-- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!--  -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!--  -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!--  -->
+- [ ] ☁️ 34 > [](Journey/034/Readme.md) <!-- Docker - Images -->
+- [ ] ☁️ 35 > [](Journey/035/Readme.md) <!-- Docker -  Registry -->
+- [ ] ☁️ 36 > [](Journey/036/Readme.md) <!-- Docker - Compose -->
+- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- Docker - Volumes -->
+- [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- Docker - Networking -->
+- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- Docker - Security -->
+- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker Kubernetes Service - Configuring Applications -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Services and Deployments -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Using Probes -->
+- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Docker Kubernetes Service - Storage -->
+
+## Visiting Ansible communications station
+
+- [ ] ☁️ 43 > [](Journey/043/Readme.md) <!-- Introduction to Ansible -->
+- [ ] ☁️ 44 > [](Journey/044/Readme.md) <!-- Ansible - Setup -->
+- [ ] ☁️ 45 > [](Journey/045/Readme.md) <!-- Ansible - Tasks -->
+- [ ] ☁️ 46 > [](Journey/046/Readme.md) <!-- Ansible - Playbooks -->
+- [ ] ☁️ 47 > [](Journey/047/Readme.md) <!-- Ansible - Variables -->
+- [ ] ☁️ 48 > [](Journey/048/Readme.md) <!-- Ansible -  -->
+- [ ] ☁️ 49 > [](Journey/049/Readme.md) <!-- Ansible -  -->
+- [ ] ☁️ 50 > [](Journey/050/Readme.md) <!-- Ansible -  -->
 
 ## Trekking the Terraformed dunes
-
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
-- [ ] ☁️ 43 > [](Journey/043/Readme.md)
-- [ ] ☁️ 44 > [](Journey/044/Readme.md)
-- [ ] ☁️ 45 > [](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [](Journey/046/Readme.md)
-- [ ] ☁️ 47 > [](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
-
-## Winding through the canyons
 
 - [ ] ☁️ 51 > [](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
@@ -161,6 +161,8 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 98 > [](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
+
+## Winding through the canyons
 
 <!-- ## Navigating across the ocean to Kubernetes and Cloud Native Associate Certification -->
 <!-- KCNA - Introduction to Kubernetes -->
