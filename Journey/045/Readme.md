@@ -1,12 +1,12 @@
 <div id="cover photo" align="center">
-  <img src="" width="500"/>
+  <img src="https://media.giphy.com/media/eKfovWZOlOpbTDEX9F/giphy.gif" width="500"/>
 </div>
 
 # Day 45 - Ansible - Tasks
 
 ## Introduction
 
-Today, I'm going to learn about
+Today, I'm going to learn about tasks in Ansible
 
 ## Prerequisite
 
@@ -69,11 +69,13 @@ I'm changing the Message of the Day for the web servers, and then looking at the
 
 ## ☁️ Cloud Outcome
 
-☁️
+☁️ Running adhoc tasks is great for troubleshooting and quick testing against inventory
+
+☁️ The returned results will give us details about the success or failure of the executed commands
 
 ## Next Steps
 
-Next, I'm going to learn about
+Next, I'm going to learn about Ansible Playbooks
 
 ## Social Proof
 
