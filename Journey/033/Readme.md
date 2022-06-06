@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/SuCfIHoeW5Emir0moy/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/3ohzdHutXXGxJoRo8U/giphy.gif" width="300"/>
 </div>
 
 # Day 33 - Docker Swarm
@@ -150,4 +150,4 @@ Next, I'm going to learn about creating my own Docker image
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6939568795971723265-lx7H?utm_source=linkedin_share&utm_medium=member_desktop_web)
