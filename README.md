@@ -74,9 +74,9 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 30 > [Introduction to Docker](Journey/030/Readme.md)
 - [ ] ☁️ 31 > [Docker - Running a Container](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [Docker - Logging in Docker](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md) <!-- Docker - Swarm -->
+- [ ] ☁️ 33 > [Docker - Swarm](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md) <!-- Docker - Images -->
-- [ ] ☁️ 35 > [](Journey/035/Readme.md) <!-- Docker -  Registry -->
+- [ ] ☁️ 35 > [](Journey/035/Readme.md) <!-- Docker - Registry -->
 - [ ] ☁️ 36 > [](Journey/036/Readme.md) <!-- Docker - Compose -->
 - [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- Docker - Volumes -->
 - [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- Docker - Networking -->
