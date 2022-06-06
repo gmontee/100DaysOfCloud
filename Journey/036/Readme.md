@@ -1,5 +1,6 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/xT0xepVmwUCPc9vKyQ/giphy.gif" width="500"/>
+</div>
 
 # New post title here
 

@@ -87,7 +87,7 @@ To test my new image, I have docker run it, and I'm able to curl the page
 
 ## Next Steps
 
-Next, I'm going to learn about creating a Docker registry
+Next, I'm going to dig a little deeper into Docker images.
 
 ## Social Proof
 
