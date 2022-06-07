@@ -91,4 +91,4 @@ Next, I'm going to dig a little deeper into Docker images.
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post]([link](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6939932894131888128-C61v?utm_source=linkedin_share&utm_medium=member_desktop_web)
