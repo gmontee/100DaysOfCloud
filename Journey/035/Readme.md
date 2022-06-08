@@ -18,10 +18,6 @@ Today, I'm going to learn even MORE about Docker images
   <img src="https://miro.medium.com/max/1400/1*p8k1b2DZTQEW_yf0hYniXw.png" width="600"/>
 </div>
 
-## Cloud Research
-
-☁️ Multi-stage Builds
-
 ## My Experience
 
 ### Task 1 — Multi-stage Builds
@@ -75,4 +71,4 @@ Next, I'm going to learn about Docker registry
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6940299335842615296-e7IX?utm_source=linkedin_share&utm_medium=member_desktop_web)
