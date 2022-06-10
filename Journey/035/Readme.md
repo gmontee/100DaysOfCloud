@@ -71,4 +71,4 @@ Next, I'm going to learn about Docker registry
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6940299335842615296-e7IX?utm_source=linkedin_share&utm_medium=member_desktop_web)
