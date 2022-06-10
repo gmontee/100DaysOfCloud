@@ -2,52 +2,61 @@
   <img src="https://media.giphy.com/media/xT0xepVmwUCPc9vKyQ/giphy.gif" width="500"/>
 </div>
 
-# New post title here
+# Day 36 - Docker Registry
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about Docker Registry
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Docker Registry - a stateless, highly scalable server side application that stores and lets you distribute Docker images
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="https://4.bp.blogspot.com/-yeD6y92nmvc/W1SvdGaBHUI/AAAAAAAABcs/5EXkFqwbeVUh2guqQDvjJ-xbjf4BFaP1wCLcBGAs/s1600/private%2Bdocker%2Bregistry.jpg" width="600"/>
+</div>
+
+- Use Cases:
+  - tightly control where your images are being stored
+  - fully own your images distribution pipeline
+  - integrate image storage and distribution tightly into your in-hose development window
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Default public registry is [Docker Hub]{https://hub.docker.com/)
 
-## Try yourself
+☁️ Options are Docker's open source registry software, or the Enterprise Solution, Docker Trusted Registry
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## My Experience
 
-### Step 1 — Summary of Step
+### Task 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+### Task 2 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+### Task 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about Docker Compose!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
