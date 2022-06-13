@@ -76,15 +76,17 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 32 > [Docker - Logging in Docker](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [Docker - Swarm](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [Docker - Images](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [Docker - Images Part Deux](Journey/035/Readme.md) <!-- Docker - Registry -->
-- [ ] ☁️ 36 > [](Journey/036/Readme.md) <!-- Docker - Compose -->
-- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- Docker - Volumes -->
-- [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- Docker - Networking -->
-- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- Docker - Security -->
-- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker Kubernetes Service - Configuring Applications -->
+- [ ] ☁️ 35 > [Docker - Images Part Deux](Journey/035/Readme.md)
+- [ ] ☁️ 36 > [Docker - Registry](Journey/036/Readme.md) 
+- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- Docker - Compose -->
+- [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- Docker - Volumes -->
+- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- Docker - Networking -->
+- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker - Security -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Configuring Applications -->
 - [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Services and Deployments -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Using Probes -->
-- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Docker Kubernetes Service - Storage -->
+- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Docker Kubernetes Service - Using Probes -->
+
+<!-- Docker Kubernetes Service - Storage -->
 
 ## Visiting Ansible communications station
 
@@ -162,7 +164,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
 
-## Winding through the canyons
+<!-- ## Winding through the canyons -->
 
 <!-- ## Navigating across the ocean to Kubernetes and Cloud Native Associate Certification -->
 <!-- KCNA - Introduction to Kubernetes -->
