@@ -87,4 +87,4 @@ Next, I'm going to learn about Docker Compose!
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloudreadmemd-at-main-gmontee-activity-6942137399372070912-msGC?utm_source=linkedin_share&utm_medium=member_desktop_web)
