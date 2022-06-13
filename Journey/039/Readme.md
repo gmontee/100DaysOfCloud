@@ -1,52 +1,62 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/KdrSWXS2JovQjS17fq/giphy.gif" width="500"/>
+</div>
 
-# New post title here
+# Day 39 - Docker Networking
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about networking in Docker
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Docker provides a number of ways to connect containers and services, and even non-Docker workloads, together
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="https://miro.medium.com/max/1400/1*WKiEgPXO8XXppoqgr7ZVQA.png" width="400"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Container Networking Model (CNM) - specification proposed by Docker where there is a network controller that is responsible for pairing a driver to a network; each driver is responsible for managing the network it owns
 
-## Try yourself
+- CMN Concepts
+  - Sandbox: an isolated unit containing all networking components associated with a single container
+  - Endpoint: connects a sandbox to a network; each sandbox/container can have any number of endpoints, but has exactly one endpoint for each network it's connect to
+  - Network: a collection of endpoints connected to one another
+  - Network Driver: handles the actual implementation of the CNM concepts
+  - IP Address Management (IPAM) Driver: automatically allocates subnets and IP addresses for networks and endpoints
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## My Experience
 
-### Step 1 — Summary of Step
+### Task 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+### Task 2 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+### Task 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ I
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about security in Docker
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
