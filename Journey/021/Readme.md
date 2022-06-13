@@ -147,4 +147,4 @@ Tomorrow, I'm going to learn about implementing user authentication and authoriz
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6932353124732993536-OFdT?utm_source=linkedin_share&utm_medium=member_desktop_web)
