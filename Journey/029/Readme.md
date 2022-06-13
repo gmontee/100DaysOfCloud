@@ -64,4 +64,4 @@ Next is to start learning Docker; at least enought to make me dangerous!
 
 ## Social Proof
 
-[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6923031451705720832-_5jF?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_microsoft-certified-azure-developer-associate-activity-6936060584618598400-c2qD?utm_source=linkedin_share&utm_medium=member_desktop_web)
