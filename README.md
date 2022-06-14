@@ -78,7 +78,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 34 > [Docker - Images](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [Docker - Images Part Deux](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [Docker - Registry](Journey/036/Readme.md) 
-- [ ] ☁️ 37 > [](Journey/037/Readme.md) <!-- Docker - Compose -->
+- [ ] ☁️ 37 > [Docker - Compose](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [](Journey/038/Readme.md) <!-- Docker - Volumes -->
 - [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- Docker - Networking -->
 - [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker - Security -->
