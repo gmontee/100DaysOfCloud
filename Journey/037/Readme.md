@@ -69,4 +69,4 @@ Next, I'm going to learn about volumes in Docker
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6942517109990055936-VeWp?utm_source=linkedin_share&utm_medium=member_desktop_web)
