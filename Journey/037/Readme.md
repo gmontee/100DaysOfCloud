@@ -61,6 +61,8 @@ Today, I'm going to learn about Docker Compose
 
 ☁️ I discovered that YAML is sensitive to spacing. Yeah, I suppose it's more readable than JSON, but in a way I miss the predictability of parenthesis and curly brackets.
 
+☁️ I learned common Docker Compose commands are 'up', for spinning up all of the services, and 'down', to tear it all down. There is also the 'logs' command, to view all logs in a single stream
+
 ## Next Steps
 
 Next, I'm going to learn about volumes in Docker
