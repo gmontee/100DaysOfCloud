@@ -1,52 +1,74 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/e05GB2c86qgOk/giphy.gif" width="400"/>
+</div>
 
-# New post title here
+# Day 40 - Docker Security
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about security in Docker
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ [Docker Content Trust (DCT)](https://docs.docker.com/engine/security/trust/) is a secure way to verify the integrity of images before you pull or run them
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="https://docs.docker.com/engine/security/trust/images/tag_signing.png" width="600"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Using DCT, the image creator can sign each image with a certificate, which clients can use to verify the image before running it
 
-## Try yourself
+## My Experience
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Task 1 — Tag an Image
 
-### Step 1 — Summary of Step
+I'm just going to pull the hello world image, and tag it
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/docker-security-task0-image-0.png" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+### Task 2 — Generate Trust Key
 
-![Screenshot](https://via.placeholder.com/500x300)
+I need to login into Docker Hub, and then create the Trust Key
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/docker-security-task1-generate-key-1.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 3 — Add a Signer
+
+Adding myself as a signer to the repo
+
+<div align="center">
+  <img src="images/docker-security-task2-create-tag-2.png" width="800"/>
+</div>
+
+### Task 4 — Test
+
+Pulling the image with DCT turned on
+
+<div align="center">
+  <img src="images/docker-security-task3-pull-image.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ Outcome
+
+- Keys
+  - Trust Key: identifies me as a user
+  - Root Key: root of trust for repo, can be used for multiple repos
+  - Repository Key: used to sign image tags
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about ...
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
