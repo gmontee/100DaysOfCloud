@@ -1,12 +1,12 @@
 <div id="cover photo" align="center">
-  <img src="" width="500"/>
+  <img src="https://media.giphy.com/media/2ipieXHiKdnqrKYpxc/giphy.gif" width="500"/>
 </div>
 
 # Day 43 - Introduction to Ansible
 
 ## Introduction
 
-Today, I'm going to learn about
+Today, I'm going to get started with using Ansible
 
 ## Prerequisite
 
@@ -26,8 +26,6 @@ Use Case Scenarios (What can I automate?)
 - Failure Prevention
 
 ## Cloud Research
-
-☁️
 
 - Advantages
 
@@ -91,11 +89,11 @@ Using the ssh key created earlier, I ssh into the vm's, ensuring I have access
 
 ## ☁️ Cloud Outcome
 
-☁️
+☁️ It's really nice that Ansible is agentless; as long as you can ssh into the servers, you're golden.
 
 ## Next Steps
 
-Next, I'm going to learn about
+Next, I'm going to learn about setting up an Inventory file in Ansible
 
 ## Social Proof
 
