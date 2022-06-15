@@ -76,9 +76,9 @@ Using AWS CloudFormation, and [a YAML script](https://github.com/ACloudGuru-Reso
 I'm using a Linux distro, and already have Python 3.x installed
 
 <div align="center">
-  <img src="images/ansible-setuplab-task2-install-ansible-7" width="800"/>
-  <img src="images/ansible-setuplab-task2-install-ansible-8" width="800"/>
-  <img src="images/ansible-setuplab-task2-install-ansible-9" width="800"/>
+  <img src="images/ansible-setuplab-task2-install-ansible-7.png" width="800"/>
+  <img src="images/ansible-setuplab-task2-install-ansible-8.png" width="800"/>
+  <img src="images/ansible-setuplab-task2-install-ansible-9.png" width="800"/>
 </div>
 
 ### Task 3 — Ensuring End-to-End
