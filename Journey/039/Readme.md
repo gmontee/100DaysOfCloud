@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/KdrSWXS2JovQjS17fq/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/VB0AIV9wwitzN1UICB/giphy.gif" width="500"/>
 </div>
 
 # Day 39 - Docker Networking
@@ -73,4 +73,4 @@ Next, I'm going to learn about security in Docker
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6943195820288610304-jcLw?utm_source=linkedin_share&utm_medium=member_desktop_web)
