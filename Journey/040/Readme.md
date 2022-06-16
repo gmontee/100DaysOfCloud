@@ -71,7 +71,7 @@ Pulling the image with DCT turned on
 
 ## Next Steps
 
-Next, I'm going to learn about ...
+Next, I'm going to learn about Ansible, an open-source IT automation and configuration management tool
 
 ## Social Proof
 
