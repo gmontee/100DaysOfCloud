@@ -77,24 +77,22 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 33 > [Docker - Swarm](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [Docker - Images](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [Docker - Images Part Deux](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [Docker - Registry](Journey/036/Readme.md) 
+- [ ] ☁️ 36 > [Docker - Registry](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [Docker - Compose](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [Docker - Volumes](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [Docker - Networking](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker - Security -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Configuring Applications -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Services and Deployments -->
-- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Docker Kubernetes Service - Using Probes -->
-
-<!-- Docker Kubernetes Service - Storage -->
 
 ## Visiting Ansible communications station
 
-- [ ] ☁️ 43 > [](Journey/043/Readme.md) <!-- Introduction to Ansible -->
-- [ ] ☁️ 44 > [](Journey/044/Readme.md) <!-- Ansible - Setup -->
-- [ ] ☁️ 45 > [](Journey/045/Readme.md) <!-- Ansible - Tasks -->
-- [ ] ☁️ 46 > [](Journey/046/Readme.md) <!-- Ansible - Playbooks -->
-- [ ] ☁️ 47 > [](Journey/047/Readme.md) <!-- Ansible - Variables -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Introduction to Ansible -->
+- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Ansible - Setup -->
+- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Ansible - Tasks -->
+- [ ] ☁️ 43 > [](Journey/043/Readme.md) <!-- Ansible - Playbooks -->
+- [ ] ☁️ 44 > [](Journey/044/Readme.md) <!-- Ansible - Variables -->
+- [ ] ☁️ 45 > [](Journey/045/Readme.md) <!-- Ansible -  -->
+- [ ] ☁️ 46 > [](Journey/046/Readme.md) <!-- Ansible -  -->
+- [ ] ☁️ 47 > [](Journey/047/Readme.md) <!-- Ansible -  -->
 - [ ] ☁️ 48 > [](Journey/048/Readme.md) <!-- Ansible -  -->
 - [ ] ☁️ 49 > [](Journey/049/Readme.md) <!-- Ansible -  -->
 - [ ] ☁️ 50 > [](Journey/050/Readme.md) <!-- Ansible -  -->
