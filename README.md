@@ -80,7 +80,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 36 > [Docker - Registry](Journey/036/Readme.md) 
 - [ ] ☁️ 37 > [Docker - Compose](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [Docker - Volumes](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md) <!-- Docker - Networking -->
+- [ ] ☁️ 39 > [Docker - Networking](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker - Security -->
 - [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Configuring Applications -->
 - [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Docker Kubernetes Service - Services and Deployments -->
