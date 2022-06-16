@@ -1,52 +1,85 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="" width="500"/>
+</div>
 
-# New post title here
+# Day 44 - Ansible - Setup
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about setting up an Inventory file in Ansible
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Inventory File - provides a way for Ansible to reference our inventory servers; it contains the host names and groups; can be static or dynamic
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="use case image" align="center">
+  <img src="" width="500"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Inventory files be written in INI-like format, and also YAML. The inventory can specify non-standard ssh ports, and create alias.
 
-## Try yourself
+☁️ Default Ansible inventory is located in `/etc/ansible/hosts`; can reference a different inventory using `-i <path> option`
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## My Experience
 
-### Step 1 — Summary of Step
+### Task 1 — Setting up Hosts-Dev file
 
-![Screenshot](https://via.placeholder.com/500x300)
+Using Visual Studio Code, I create an hosts-dev file which specifies the ip addresses of the web servers, load balancer, and what I'm using for control, in this case my local machine. Initially, trying to list available hosts, since Ansible is still looking the default inventory file location
 
-### Step 1 — Summary of Step
+<div align="center">
+  <img src="images/ansible-setup-task1-create-hosts-file-1.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Specifying the location of the inventory file, it shows available hosts
 
-### Step 3 — Summary of Step
+<div align="center">
+  <img src="images/ansible-setup-task1-create-hosts-file-2.png" width="800"/>
+</div>
 
-![Screenshot](https://via.placeholder.com/500x300)
+Since I'm using my local machine as control, I add `ansible_connection=local` to let Ansible it doesn't need to ssh into control
+
+<div align="center">
+  <img src="images/ansible-setup-task1-create-hosts-file-3.png" width="800"/>
+</div>
+
+### Task 2 - Configuration
+
+Here I'm creating an ansible.cfg file, which will specify the inventory file location
+
+<div align="center">
+  <img src="images/ansible-setup-task2-create-ansible-cfg-4.png" width="800"/>
+</div>
+
+Adding to the hosts-dev file, I can specify alias
+
+<div align="center">
+  <img src="images/ansible-setup-task2-create-ansible-cfg-5.png" width="800"/>
+</div>
+
+Here I'm showing I can query the list of hosts using a variety of filters
+
+<div align="center">
+  <img src="images/ansible-setup-task2-create-ansible-cfg-6.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️
+
+- Configuration file will be search in the following order:
+  - ANSIBLE_CONFIG (environment variable if set)
+  - ansible.cfg (in the current directory)
+  - ~/.ansible.cfg (in the home directory)
+  - /etc/ansible/ansible.cfg
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)

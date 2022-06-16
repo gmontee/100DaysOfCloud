@@ -1,99 +1,81 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/2ipieXHiKdnqrKYpxc/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/eKfovWZOlOpbTDEX9F/giphy.gif" width="500"/>
 </div>
 
-# Day 43 - Introduction to Ansible
+# Day 45 - Ansible - Tasks
 
 ## Introduction
 
-Today, I'm going to get started with using Ansible
+Today, I'm going to learn about tasks in Ansible
 
 ## Prerequisite
 
-☁️ Ansible is an IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.
+☁️ Ansible tasks are a way to run adhoc commands against our inventory in a one-line single executable. Tasks are the basic building block of Ansible's execution and configuration.
 
 ## Use Case
 
 <div id="use case image" align="center">
-  <img src="https://libs.websoft9.com/Websoft9/DocsPicture/zh/ansible/ansible-guis-websoft9.png" width="500"/>
+  <img src="https://linuxhandbook.com/content/images/2020/10/ansible-ad-hoc-command.png" width="500"/>
 </div>
 
-Use Case Scenarios (What can I automate?)
-
-- Mass Deployments
-- Scaling
-- Migrating Environments
-- Failure Prevention
+`$ ansible [pattern] -m [module] -a "[module options]"`
 
 ## Cloud Research
 
-- Advantages
-
-  - Automated deployments
-  - Manage multi-server systems
-  - Make configurations one time
-  - Produce reliable and repeatable systems
-  - Reduce human error
-
-- Infrastructure as Code
-
-  - Build entire system in code
-  - Leverage source control
-  - Roll back changes (if needed)
-  - Share code that was previously hidden
-
-- Features
-  - Written in Python
-  - Script commands using YAML syntax
-  - Sends commands to nodes via SSH
-  - Commands are executed sequentially on each node
-  - Each node runes commands in parallel
+☁️ [Ansible Modules](https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html) provide reusable, standalone scripts. For instance, under the Cloud module, there are scripts for running commands on AWS, Azure, Google Cloud, Docker, VMWare, etc. Another example is the Files module, enabling such capability as fetching, copying, finding, replacing, etc files.
 
 ## My Experience
 
-### Task 1 — Setup Inventory
+### Task 1 — Summary of Step
 
-First, I need to create SSH keys that I will use to access my servers
+Here I attempt to ping all the resources in my inventory, and for the non-local resources I get a permission denied
 
 <div align="center">
-  <img src="images/ansible-setuplab-task1-create-key-pair-1.png" width="800"/>
-  <img src="images/ansible-setuplab-task1-create-key-pair-2.png" width="800"/>
-  <img src="images/ansible-setuplab-task1-create-key-pair-3.png" width="800"/>
+  <img src="images/ansible-tasks-ping-all-1.png" width="800"/>
 </div>
 
-Using AWS CloudFormation, and [a YAML script](https://github.com/ACloudGuru-Resources/Course_Introduction_to_Ansible/blob/master/02_02_Introduction_To_Ansible/setup-env.yml), to create 2 servers and 1 load balancer
+In the Ansible config file, I set the default remote user, which since I'm using AWS is ec2-user. I also tell Ansible where to find the needed ssh key. Finally, I disable host key checking, since I don't want an interactive experience when using Ansible
 
 <div align="center">
-  <img src="images/ansible-setuplab-task1-cloud-formation-4.png" width="800"/>
-  <img src="images/ansible-setuplab-task1-cloud-formation-5.png" width="800"/>
-  <img src="images/ansible-setuplab-task1-cloud-formation-6.png" width="800"/>
+  <img src="images/ansible-tasks-ping-all-2.png" width="800"/>
 </div>
 
-### Task 2 — Installing Ansible
-
-I'm using a Linux distro, and already have Python 3.x installed
+I received a warning, where Ansible found a Python interpreter at a certain path, but warns that might change with installation of another future Python interpreter. For now, I add a line to silence the warning.
 
 <div align="center">
-  <img src="images/ansible-setuplab-task2-install-ansible-7.png" width="800"/>
-  <img src="images/ansible-setuplab-task2-install-ansible-8.png" width="800"/>
-  <img src="images/ansible-setuplab-task2-install-ansible-9.png" width="800"/>
+  <img src="images/ansible-tasks-ping-all-3.png" width="800"/>
 </div>
 
-### Task 3 — Ensuring End-to-End
+### Task 2 — Summary of Step
 
-Using the ssh key created earlier, I ssh into the vm's, ensuring I have access
+Here I'm trying different commands, with two potential return codes, e.g., 0 (success), 1 (failure)
 
 <div align="center">
-  <img src="images/ansible-setuplab-task2-end-to-end-10.png" width="800"/>
+  <img src="images/ansible-tasks-exit-codes-4.png" width="800"/>
+</div>
+
+Getting the UID of each of the created users
+
+<div align="center">
+  <img src="images/ansible-tasks-get-uid-5.png" width="800"/>
+</div>
+
+I'm changing the Message of the Day for the web servers, and then looking at the message
+
+<div align="center">
+  <img src="images/ansible-tasks-motd-6.png" width="800"/>
+  <img src="images/ansible-tasks-motd-7.png" width="800"/>
 </div>
 
 ## ☁️ Cloud Outcome
 
-☁️ It's really nice that Ansible is agentless; as long as you can ssh into the servers, you're golden.
+☁️ Running adhoc tasks is great for troubleshooting and quick testing against inventory
+
+☁️ The returned results will give us details about the success or failure of the executed commands
 
 ## Next Steps
 
-Next, I'm going to learn about setting up an Inventory file in Ansible
+Next, I'm going to learn about Ansible Playbooks
 
 ## Social Proof
 
