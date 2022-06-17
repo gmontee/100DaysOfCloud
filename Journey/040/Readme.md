@@ -75,4 +75,4 @@ Next, I'm going to learn about Ansible, an open-source IT automation and configu
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6943558094085898242-6Ybh?utm_source=linkedin_share&utm_medium=member_desktop_web)
