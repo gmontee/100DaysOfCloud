@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="" width="500"/>
+  <img src="https://media.giphy.com/media/1WL1H6mFOtcKmiwEqv/giphy.gif" width="500"/>
 </div>
 
 # Day 44 - Ansible - Setup
@@ -11,12 +11,6 @@ Today, I'm going to learn about setting up an Inventory file in Ansible
 ## Prerequisite
 
 ☁️ Inventory File - provides a way for Ansible to reference our inventory servers; it contains the host names and groups; can be static or dynamic
-
-## Use Case
-
-<div id="use case image" align="center">
-  <img src="" width="500"/>
-</div>
 
 ## Cloud Research
 
@@ -68,8 +62,6 @@ Here I'm showing I can query the list of hosts using a variety of filters
 
 ## ☁️ Cloud Outcome
 
-☁️
-
 - Configuration file will be search in the following order:
   - ANSIBLE_CONFIG (environment variable if set)
   - ansible.cfg (in the current directory)
@@ -78,7 +70,7 @@ Here I'm showing I can query the list of hosts using a variety of filters
 
 ## Next Steps
 
-Next, I'm going to learn about
+Next, I'm going to learn about tasks in Ansible
 
 ## Social Proof
 
