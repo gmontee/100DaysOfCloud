@@ -81,7 +81,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 37 > [Docker - Compose](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [Docker - Volumes](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [Docker - Networking](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md) <!-- Docker - Security -->
+- [ ] ☁️ 40 > [Docker - Security](Journey/040/Readme.md)
 
 ## Visiting Ansible communications station
 
