@@ -86,22 +86,21 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 ## Visiting Ansible communications station
 
 - [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Introduction to Ansible -->
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Ansible - Setup -->
-- [ ] ☁️ 42 > [](Journey/042/Readme.md) <!-- Ansible - Tasks -->
-- [ ] ☁️ 43 > [](Journey/043/Readme.md) <!-- Ansible - Playbooks -->
-- [ ] ☁️ 44 > [](Journey/044/Readme.md) <!-- Ansible - Variables -->
-- [ ] ☁️ 45 > [](Journey/045/Readme.md) <!-- Ansible -  -->
-- [ ] ☁️ 46 > [](Journey/046/Readme.md) <!-- Ansible -  -->
-- [ ] ☁️ 47 > [](Journey/047/Readme.md) <!-- Ansible -  -->
-- [ ] ☁️ 48 > [](Journey/048/Readme.md) <!-- Ansible -  -->
-- [ ] ☁️ 49 > [](Journey/049/Readme.md) <!-- Ansible -  -->
-- [ ] ☁️ 50 > [](Journey/050/Readme.md) <!-- Ansible -  -->
+- [ ] ☁️ 41 > [](Journey/042/Readme.md) <!-- Ansible - Setup -->
+- [ ] ☁️ 42 > [](Journey/043/Readme.md) <!-- Ansible - Tasks -->
+- [ ] ☁️ 43 > [](Journey/044/Readme.md) <!-- Ansible - Playbooks -->
+- [ ] ☁️ 44 > [](Journey/045/Readme.md) <!-- Ansible - Variables -->
+- [ ] ☁️ 45 > [](Journey/046/Readme.md) <!-- Ansible - Scheduling One-time Tasks -->
+- [ ] ☁️ 46 > [](Journey/047/Readme.md) <!-- Ansible - Templates -->
+- [ ] ☁️ 47 > [](Journey/048/Readme.md) <!-- Ansible - Firewall Rules -->
+- [ ] ☁️ 48 > [](Journey/049/Readme.md) <!-- Ansible - Renewing IAM Access Keys -->
+- [ ] ☁️ 50 > [](Journey/050/Readme.md) <!-- Ansible - Confidential Data -->
+- [ ] ☁️ 51 > [](Journey/051/Readme.md) <!-- Ansible - Roles -->
+- [ ] ☁️ 52 > [](Journey/052/Readme.md) <!-- Ansible - Error Handling -->
+- [ ] ☁️ 53 > [](Journey/053/Readme.md) <!-- Ansible - Putting it all together -->
 
 ## Trekking the Terraformed dunes
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
