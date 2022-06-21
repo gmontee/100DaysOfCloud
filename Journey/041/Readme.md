@@ -97,4 +97,4 @@ Next, I'm going to learn about setting up an Inventory file in Ansible
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6945061035624058880-IoGK?utm_source=linkedin_share&utm_medium=member_desktop_web)
