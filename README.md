@@ -85,7 +85,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 ## Visiting Ansible communications station
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md) <!-- Introduction to Ansible -->
+- [ ] ☁️ 41 > [Introduction to Ansible](Journey/041/Readme.md)
 - [ ] ☁️ 41 > [](Journey/042/Readme.md) <!-- Ansible - Setup -->
 - [ ] ☁️ 42 > [](Journey/043/Readme.md) <!-- Ansible - Tasks -->
 - [ ] ☁️ 43 > [](Journey/044/Readme.md) <!-- Ansible - Playbooks -->
