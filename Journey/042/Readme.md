@@ -62,7 +62,7 @@ Here I'm showing I can query the list of hosts using a variety of filters
 
 ## ☁️ Cloud Outcome
 
-- Configuration file will be search in the following order:
+- Configuration file will be searched in the following order:
   - ANSIBLE_CONFIG (environment variable if set)
   - ansible.cfg (in the current directory)
   - ~/.ansible.cfg (in the home directory)
@@ -74,4 +74,4 @@ Next, I'm going to learn about tasks in Ansible
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6945383728009347072-BqdH?utm_source=linkedin_share&utm_medium=member_desktop_web)
