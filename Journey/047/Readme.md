@@ -1,52 +1,80 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/jkZc8OAlapk8DFRNlA/giphy.gif" width="300"/>
+</div>
 
-# New post title here
+# Day 47 - Ansible - Using Templates in Ansible
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today, I'm going to learn about utilizing Templates in Ansible
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ [Templates](https://docs.ansible.com/ansible/latest/user_guide/playbooks_templating.html) give the ability to define text files with variables instead of static values, and replace those variables at playbook runtime
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<div id="cover photo" align="center">
+  <img src="https://www.middlewareinventory.com/wp-content/uploads/2020/05/Screenshot-2020-05-18-at-9.50.17-AM.png" width="600"/>
+</div>
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Ansible templates are built on the [Jinja2 templating language](https://jinja.palletsprojects.com/en/3.1.x/) with a j2 file extension
 
-## Try yourself
+## My Experience
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Task 1 — Insert Variable into Template
 
-### Step 1 — Summary of Step
+I have a template file for httpd.conf
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/ansible-template-task1-httpd-1.png" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+I manually change all the /var/www/ references to {{ web dir }}, so the location reference can change as needed
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/ansible-template-task1-httpd-2.png" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+### Task 2 — Create the Playbook
 
-![Screenshot](https://via.placeholder.com/500x300)
+I create my playbook, and give a value to the variable 'webdir'
+
+<div align="center">
+  <img src="images/ansible-template-task1-template-yml-3.png" width="800"/>
+  <img src="images/ansible-template-task1-template-yml-4.png" width="800"/>
+</div>
+
+Before I execute the playbook, I jump onto the web server and confirm there is no reference to 'opt'
+
+<div align="center">
+  <img src="images/ansible-template-task1-verify-current-5.png" width="800"/>
+</div>
+
+### Task 3 — Verify Results
+
+Executing the playbook....
+
+<div align="center">
+  <img src="images/ansible-template-task1-execute-6.png" width="800"/>
+</div>
+
+Jumping back onto the web server, I can see that the file was updated to reference the 'opt' location
+
+<div align="center">
+  <img src="images/ansible-template-task1-verify-current-7.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ The copy function is usually used for copying files over, but utilizing templates, dynamically text files can be created on remote hosts
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next, I'm going to learn about working with confidential data in Ansible
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post](link)
