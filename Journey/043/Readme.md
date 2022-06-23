@@ -30,6 +30,8 @@ Today, I'm going to learn about tasks in Ansible
 
 Here I attempt to ping all the resources in my inventory, and for the non-local resources I get a permission denied
 
+`ansible -m ping all`
+
 <div align="center">
   <img src="images/ansible-tasks-ping-all-1.png" width="800"/>
 </div>
@@ -48,22 +50,31 @@ I received a warning, where Ansible found a Python interpreter at a certain path
 
 ### Task 2 — Summary of Step
 
-Here I'm trying different commands, with two potential return codes, e.g., 0 (success), 1 (failure)
+Here I'm trying different commands, with two potential return codes, e.g., 0 (success), 1 (failure). The first command is merely executing a command to retrieve system name, version, and other details. The second command is a binary that immediately exists returning false.
+`ansible -m shell -a "uname" webservers:loadbalancers`
+`ansible -m command -a "/bin/false/" \!local`
 
 <div align="center">
   <img src="images/ansible-tasks-exit-codes-4.png" width="800"/>
 </div>
 
-Getting the UID of each of the created users
-
+Getting the UID of each of the created users, leveraging the 'id' command to get the user id, group id, groups associated with that user.
+`ansible all -m command -a /usr/bin/hostname`
+`ansible all -m command -a "id"`
 <div align="center">
   <img src="images/ansible-tasks-get-uid-5.png" width="800"/>
 </div>
 
-I'm changing the Message of the Day for the web servers, and then looking at the message
-
+I'm changing the Message of the Day for the web servers, and then looking at the message (the command glitched in the screenshot). The dash b at the end is for "become", meaning to escalate privileges.
+`ansible webservers -m copy -a 'content="Managed by Ansible\n" dest=/etc/motd -b`
 <div align="center">
   <img src="images/ansible-tasks-motd-6.png" width="800"/>
+</div>
+
+Let's take a look
+`ansible webservers -m command -a 'cat /etc/motd'`
+
+<div align="center">
   <img src="images/ansible-tasks-motd-7.png" width="800"/>
 </div>
 
