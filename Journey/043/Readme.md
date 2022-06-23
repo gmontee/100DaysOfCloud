@@ -90,4 +90,4 @@ Next, I'm going to learn about Ansible Playbooks
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6945738041583919104-0pOZ?utm_source=linkedin_share&utm_medium=member_desktop_web)
