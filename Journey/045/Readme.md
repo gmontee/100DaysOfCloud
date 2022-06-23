@@ -104,7 +104,7 @@ With the change made, SSHing into node2 shows the custom Message of the Day
 
 ## Next Steps
 
-Next, I'm going to learn about ...
+Next, I'm going to learn about scheduling with the 'at' command
 
 ## Social Proof
 
