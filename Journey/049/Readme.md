@@ -81,7 +81,7 @@ Refreshing the AWS IAM page, I see a new key, ending in 6VV5
 
 ## Next Steps
 
-Next, I'm going to reflect on my journey so far.
+Next, I'm going work with Firewall Rules using Ansible
 
 ## Social Proof
 
