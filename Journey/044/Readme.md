@@ -126,4 +126,4 @@ Next, I'm going to learn about leveraging variables in Ansible
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6946097480941932544-VmFg?utm_source=linkedin_share&utm_medium=member_desktop_web)
