@@ -50,11 +50,15 @@ Creating a playbook to install an Apache HTTP Server
 
 Running the playbook we see a change on node1; the "Gathering Facts" task is built-in and Ansible uses it to collect information about the managed node(s)
 
+`ansible-navigator run apache.yml -i hosts`
+
 <div align="center">
   <img src="images/ansible-playbook-run-playbook-3.png" width="800"/>
 </div>
 
 SSHing into node1 I can manually check that httpd is installed (I could've also just used an Ad Hoc Ansible command)
+
+`rpm -qi httpd`
 
 <div align="center">
   <img src="images/ansible-playbook-httpd-4.png" width="800"/>
@@ -76,6 +80,8 @@ YAML files are sensitive to spacing. In this case there was a space in front of 
 
 Alright, now we're in business. SSHing back into node1 I can check the status of the Apache HTTP Server
 
+`systemctl status httpd`
+
 <div align="center">
   <img src="images/ansible-playbook-apache-success-7.png" width="800"/>
 </div>
@@ -96,6 +102,8 @@ I'm extending the playbook file again to now copy the web.html I just created
 
 Success again! Utilizing curl I can see the html page on node1
 
+`curl http://node1`
+
 <div align="center">
   <img src="images/ansible-playbook-copysuccess-10.png" width="800"/>
 </div>
@@ -109,6 +117,8 @@ I went to the Apache playbook and changes hosts from node1 to webserver; now whe
 ## ☁️ Cloud Outcome
 
 ☁️ Good Playbooks are idempotent, meaning repeated execution always leads to the same result.
+
+☁️ Once you have a playbook written, it's amazing to think all the work it's saving you by not having to manually log into each server, perform the tasks, etc, and hope you don't make any mistakes.
 
 ## Next Steps
 
