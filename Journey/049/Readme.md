@@ -22,7 +22,7 @@ Today, I'm going to learn about renewing IAM access keys in Ansible
 
 ☁️ Access keys consist of two parts, the access key ID, and the secret access key
 
-☁️ AWS's recommended best practice is to use temporary security credentials, e.g., IAM roles, instead of access keys. However, if you do use them, they recommend rotating them every 90 days
+☁️ We're going to be using the [Amazon AWS Provider Plugin](https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugins-in-amazon-aws)
 
 ## My Experience
 
@@ -53,7 +53,7 @@ Create our new key
   <img src="images/ansible-iam-task1-create-keyupdate-5.png" width="800"/>
 </div>
 
-We need to store the new key's access key id and the secret itself
+We need to store the new key's access key id and the secret itself; mode 0600 means the owner can read and write but not execute, and then groups and others have no rights
 
 <div align="center">
   <img src="images/ansible-iam-task1-create-keyupdate-6.png" width="800"/>
@@ -77,7 +77,7 @@ Refreshing the AWS IAM page, I see a new key, ending in 6VV5
 
 ## ☁️ Cloud Outcome
 
-☁️ E
+☁️ AWS's recommended best practice is to use temporary security credentials, e.g., IAM roles, instead of access keys. However, if you do use access keys, they recommend rotating them every 90 days
 
 ## Next Steps
 
