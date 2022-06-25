@@ -99,9 +99,12 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 52 > [](Journey/052/Readme.md) <!-- Ansible - Error Handling -->
 - [ ] ☁️ 53 > [](Journey/053/Readme.md) <!-- Ansible - Putting it all together -->
 
-## Trekking the Terraformed dunes
+## Rest Stop - Reflections on Climbing the Mountain
 
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
+
+## Trekking the Terraformed dunes
+
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [](Journey/057/Readme.md)
