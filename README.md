@@ -89,7 +89,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 42 > [Ansible - Setup](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [Ansible - Tasks](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [Ansible - Playbooks](Journey/044/Readme.md)
-- [ ] ☁️ 45 > [](Journey/045/Readme.md) <!-- Ansible - Variables -->
+- [ ] ☁️ 45 > [Ansible - Variables](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md) <!-- Ansible - Scheduling One-time Tasks -->
 - [ ] ☁️ 47 > [](Journey/047/Readme.md) <!-- Ansible - Templates -->
 - [ ] ☁️ 48 > [](Journey/048/Readme.md) <!-- Ansible - Firewall Rules -->
