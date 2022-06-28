@@ -15,7 +15,7 @@ At the end of this challenge, I looking to have significant knowledge of the Azu
 - Get comfortable with Git on the command line
 - Learn about containers, Docker, and Kubernetes
 - Hands-on experience with Infrastructure as Code (IaC) tooling with Terraform, and Ansible
-- Learn another lanuage, Python, which is used for programming, automation, big data, and so much more
+- Learn another languages, Python, which is used for programming, automation, big data, and so much more
 - Expand upon my introduction to DevOps, CI/CD, and tooling like Jenkins
 - Upgrade my experience of Team Foundation Server to Azure DevOps
 
@@ -29,8 +29,8 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] AZ-400 Azure DevOps Engineer Expert
 - [ ] AWS Certified Cloud Practitioner
 - [ ] HashiCorp Certified: Terraform Associate
-- [ ] CNCF Certified Kubernetes Administartor (CKA)
-- [ ] CNCF Certified Kubernetets Application Developer (CKAD)
+- [ ] CNCF Certified Kubernetes Administrator (CKA)
+- [ ] CNCF Certified Kubernetes Application Developer (CKAD)
 
 ### [Connect with me on LinkedIn!](https://www.linkedin.com/in/georgemontee/)
 
