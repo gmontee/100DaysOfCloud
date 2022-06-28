@@ -103,27 +103,24 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 
-## Trekking the Terraformed dunes
+## Trekking through the Terraformed dunes
 
-- [ ] ☁️ 55 > [](Journey/055/Readme.md)
-- [ ] ☁️ 56 > [](Journey/056/Readme.md)
-- [ ] ☁️ 57 > [](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [](Journey/060/Readme.md)
-
-## Stumbling through the caves
-
-- [ ] ☁️ 61 > [](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [](Journey/062/Readme.md)
-- [ ] ☁️ 63 > [](Journey/063/Readme.md)
-- [ ] ☁️ 64 > [](Journey/064/Readme.md)
-- [ ] ☁️ 65 > [](Journey/065/Readme.md)
-- [ ] ☁️ 66 > [](Journey/066/Readme.md)
-- [ ] ☁️ 67 > [](Journey/067/Readme.md)
-- [ ] ☁️ 68 > [](Journey/068/Readme.md)
-- [ ] ☁️ 69 > [](Journey/069/Readme.md)
-- [ ] ☁️ 70 > [](Journey/070/Readme.md)
+- [ ] ☁️ 55 > [](Journey/055/Readme.md) <!-- Terraform - Infrastructure as Code -->
+- [ ] ☁️ 56 > [](Journey/056/Readme.md) <!-- Terraform - Workflow -->
+- [ ] ☁️ 57 > [](Journey/057/Readme.md) <!-- Terraform - Providers -->
+- [ ] ☁️ 58 > [](Journey/058/Readme.md) <!-- Terraform - Variables -->
+- [ ] ☁️ 59 > [](Journey/059/Readme.md) <!-- Terraform - State -->
+- [ ] ☁️ 60 > [](Journey/060/Readme.md) <!-- Terraform - Modules -->
+- [ ] ☁️ 61 > [](Journey/061/Readme.md) <!-- Terraform - Dynamic Blocks -->
+- [ ] ☁️ 62 > [](Journey/062/Readme.md) <!-- Terraform - CLI -->
+- [ ] ☁️ 63 > [](Journey/063/Readme.md) <!-- Terraform - Deploy to Azure -->
+- [ ] ☁️ 64 > [](Journey/064/Readme.md) <!-- Terraform - Manage Azure Infrastructure -->
+- [ ] ☁️ 65 > [](Journey/065/Readme.md) <!-- Terraform - Output Variables -->
+- [ ] ☁️ 66 > [](Journey/066/Readme.md) <!-- Terraform - Logging -->
+- [ ] ☁️ 67 > [](Journey/067/Readme.md) <!-- Terraform - Troubleshooting -->
+- [ ] ☁️ 68 > [](Journey/068/Readme.md) <!-- Terraform - Troubleshooting -->
+- [ ] ☁️ 69 > [](Journey/069/Readme.md) <!-- Terraform - Troubleshooting -->
+- [ ] ☁️ 70 > [](Journey/070/Readme.md) <!-- Terraform - Troubleshooting -->
 
 ## Resting at the Lagoon / Into the bushy, thorny forest
 
@@ -165,7 +162,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
 
 <!-- ## Winding through the canyons -->
-
+<!-- ## Stumbling through the caves -->
 <!-- ## Navigating across the ocean to Kubernetes and Cloud Native Associate Certification -->
 <!-- KCNA - Introduction to Kubernetes -->
 <!-- KCNA - Kubernetes Resources -->
