@@ -150,19 +150,23 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 ## Into the sky to touch the cloud!
 
-- [ ] ☁️ 91 > [](Journey/091/Readme.md)
-- [ ] ☁️ 92 > [](Journey/092/Readme.md)
-- [ ] ☁️ 93 > [](Journey/093/Readme.md)
-- [ ] ☁️ 94 > [](Journey/094/Readme.md)
-- [ ] ☁️ 95 > [](Journey/095/Readme.md)
-- [ ] ☁️ 96 > [](Journey/096/Readme.md)
-- [ ] ☁️ 97 > [](Journey/097/Readme.md)
-- [ ] ☁️ 98 > [](Journey/098/Readme.md)
-- [ ] ☁️ 99 > [](Journey/099/Readme.md)
-- [ ] ☁️ 100 > [](Journey/100/Readme.md)
+- [ ] ☁️ 91 > [](Journey/091/Readme.md) <!-- Cloud Resume Challenge - Introduction -->
+- [ ] ☁️ 92 > [](Journey/092/Readme.md) <!-- Cloud Resume Challenge - Build the Frontend -->
+- [ ] ☁️ 93 > [](Journey/093/Readme.md) <!-- Cloud Resume Challenge - Editing the Website -->
+- [ ] ☁️ 94 > [](Journey/094/Readme.md) <!-- Cloud Resume Challenge - Backend -->
+- [ ] ☁️ 95 > [](Journey/095/Readme.md) <!-- Cloud Resume Challenge - Azure Functions -->
+- [ ] ☁️ 96 > [](Journey/096/Readme.md) <!-- Cloud Resume Challenge - Deployment -->
+- [ ] ☁️ 97 > [](Journey/097/Readme.md) <!-- Cloud Resume Challenge - CI/CD Pipeline -->
+- [ ] ☁️ 98 > [](Journey/098/Readme.md) <!-- Cloud Resume Challenge - Testing -->
+- [ ] ☁️ 99 > [](Journey/099/Readme.md) <!-- Cloud Resume Challenge - Final -->
+
+## Accomplishment - Reflections on the Journey
+
+- [ ] ☁️ 100 > [](Journey/100/Readme.md) <!-- The Summit -->
 
 <!-- ## Winding through the canyons -->
 <!-- ## Stumbling through the caves -->
+
 <!-- ## Navigating across the ocean to Kubernetes and Cloud Native Associate Certification -->
 <!-- KCNA - Introduction to Kubernetes -->
 <!-- KCNA - Kubernetes Resources -->
