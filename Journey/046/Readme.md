@@ -103,4 +103,4 @@ Next, I'm going to learn about using Templates within Ansible
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6947548343833153536-vHM1?utm_source=linkedin_share&utm_medium=member_desktop_web)
