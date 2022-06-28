@@ -108,4 +108,4 @@ Next, I'm going to learn about scheduling with the 'at' command
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6947187371624861696-ylu8?utm_source=linkedin_share&utm_medium=member_desktop_web)
