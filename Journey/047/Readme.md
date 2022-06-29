@@ -34,6 +34,8 @@ I have a template file for httpd.conf
 
 I manually change all the /var/www/ references to {{ web dir }}, so the location reference can change as needed
 
+`{{ webdir }}`
+
 <div align="center">
   <img src="images/ansible-template-task1-httpd-2.png" width="800"/>
 </div>
@@ -41,6 +43,8 @@ I manually change all the /var/www/ references to {{ web dir }}, so the location
 ### Task 2 — Create the Playbook
 
 I create my playbook, and give a value to the variable 'webdir'
+
+`vim template.yml`
 
 <div align="center">
   <img src="images/ansible-template-task1-template-yml-3.png" width="800"/>
@@ -57,11 +61,15 @@ Before I execute the playbook, I jump onto the web server and confirm there is n
 
 Executing the playbook....
 
+`ansible-playbook template.yml`
+
 <div align="center">
   <img src="images/ansible-template-task1-execute-6.png" width="800"/>
 </div>
 
 Jumping back onto the web server, I can see that the file was updated to reference the 'opt' location
+
+`sudo grep opt /etc/httpd/conf/httpd.conf`
 
 <div align="center">
   <img src="images/ansible-template-task1-verify-current-7.png" width="800"/>
