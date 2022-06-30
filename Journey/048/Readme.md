@@ -80,4 +80,4 @@ Next, I'm going to learn about renewing IAM access keys in Ansible
 
 ## Social Proof
 
-[Linkedin Post](link)
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6948314019367718912-BhwV?utm_source=linkedin_share&utm_medium=member_desktop_web)
