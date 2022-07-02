@@ -46,7 +46,7 @@
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to start doing the AZ-104 labs provided by Microsoft on their [Github](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/) page.
+✍️ Tomorrow, I'm going to start doing the [AZ-104 labs provided by Microsoft](../002/Readme.md) on their [Github](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/) page.
 
 ## Social Proof
 
