@@ -133,4 +133,4 @@ Success!
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6950090499009503233-dGmk?utm_source=linkedin_share&utm_medium=member_desktop_web)
