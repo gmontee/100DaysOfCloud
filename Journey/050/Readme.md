@@ -115,7 +115,7 @@ Success!
 
 ## ☁️ Cloud Outcome
 
-☁️ First, I learned about elinks. That's a neat capability to have in a command line interface.
+☁️ First, I learned about [elinks](http://elinks.or.cz/); a rich text mode web browser. It suppots colors, table rendering, background downloading, menu driven config interface, tabbed browsering, ans slim code. Overall, that's a neat capability to have in a command line interface.
 
 ☁️ Second, I was looking over the firewalld module documentation. I was able to enable Port 80 by specifying the HTTP in the service parameter. I can also use the port parameter to specify a specific port and/or range; see the code block below
 
