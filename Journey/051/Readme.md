@@ -34,6 +34,8 @@ Creating a playbook to download a file from a site that doesn't exist
 
 Running the playbook it the download fails, of course
 
+`ansible-playbook report.yml`
+
 <div align="center">
   <img src="images/ansible-error-task1-2.png" width="800"/>
 </div>
@@ -68,7 +70,7 @@ Always message shows up
 
 ### Task 4 — Successful Attempt
 
-Here's what a successful attempt looks like (I modify the file to download to something valid)
+Here's what a successful attempt looks like (I modified the file to download to something valid)
 
 <div align="center">
   <img src="images/ansible-error-task4-successful-download-8.png" width="800"/>
