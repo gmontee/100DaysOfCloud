@@ -86,4 +86,4 @@ Here's what a successful attempt looks like (I modified the file to download to 
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6950441075224317952-ONH8?utm_source=linkedin_share&utm_medium=member_desktop_web)
