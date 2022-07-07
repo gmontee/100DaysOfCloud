@@ -26,7 +26,9 @@
 
 ### Task 1 — Create a Role
 
-Creating a role names "baseline"
+Creating a role names "baseline"; I goofed the first time, forgetting the roles directory.
+
+`mkdir /etc/ansible/roles/baseline/{template,tasks,files}`
 
 <div align="center">
   <img src="images/ansible-roles-task1-create-role-1.png" width="800"/>
