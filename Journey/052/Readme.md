@@ -74,12 +74,6 @@ Adding our install nagios task to the main playbook
 
 ### Task 4 — Configure the Role to add Nagios entry
 
-Grabbing the IP address for our Nagios server
-
-<div align="center">
-  <img src="images/ansible-roles-task4-nagios-entry-8.png" width="800"/>
-</div>
-
 Creating and editing the edit hosts playbook
 
 <div align="center">
