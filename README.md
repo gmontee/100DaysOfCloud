@@ -97,7 +97,7 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 50 > [Ansible - Firewall Rules](Journey/050/Readme.md)
 - [ ] ☁️ 51 > [Ansible - Error Handling](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [Ansible - Roles](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [](Journey/053/Readme.md) <!-- Ansible - Putting it all together -->
+- [ ] ☁️ 53 > [Ansible - Putting it all together](Journey/053/Readme.md)
 
 ## Rest Stop - Reflections on Climbing the Mountain
 
