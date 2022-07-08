@@ -10,9 +10,9 @@
 
 ## Prerequisite
 
-☁️ [Ansible Templates](../047/Readme.md)
+☁️ On day 47 I learned about [Ansible Templates](../047/Readme.md); to which today I'm going to use to populate the virtual host configuration file, and httpd configuration password
 
-☁️ [Ansible Confidential Data](../050/Readme.md)
+☁️ A few days I learned about securing [Ansible Confidential Data](../050/Readme.md), today I'll use for securing a password
 
 ## Use Case
 
@@ -37,6 +37,8 @@ Encrypting our confidential info
 ### Task 2 — Playbook to deploy httpd
 
 Creating and editing the deploy httpd playbook
+
+`ansible-vault encrypt /home/ansible/confidential`
 
 <div align="center">
   <img src="images/ansible-all-task2-deploy-httpd-2.png" width="800"/>
@@ -66,7 +68,9 @@ Task for executing data-job script with a timeout of 600 seconds and no polling
 
 ### Task 5 — Execute the Playbook
 
-Success
+The parameter --ask-vault-pass will prompt the user for the vault password when the playbook needs to access confidential data
+
+`ansible-playbook --ask-vault-pass /home/ansible/webserver.yml`
 
 <div align="center">
   <img src="images/ansible-all-task5-execute-6.png" width="800"/>
@@ -74,7 +78,7 @@ Success
 
 ## ☁️ Cloud Outcome
 
-☁️ Although, this is the 13th day of Ansible, there's still a lot for me to learn and master
+☁️ Although, this is the 13th day of Ansible, there's still a lot for me to learn and master. My temptation is to spend a lot of time on something, a trait that has worked well for me in the past, but for the purpose of my 100 days of Cloud journey I want to get exposure to a variety of items in this "short" period of time.
 
 ## Next Steps
 
