@@ -86,4 +86,4 @@ The parameter --ask-vault-pass will prompt the user for the vault password when 
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6951167300184014848-StDL?utm_source=linkedin_share&utm_medium=member_desktop_web)
