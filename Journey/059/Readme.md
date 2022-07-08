@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/42wQXwITfQbDGKqUP7/giphy.gif" width="300"/>
+</div>
 
-# New post title here
+# Day 59 - Terraform - State
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today I'm going to learn about State in Terraform
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+☁️ Terraform stores the state about the managed infrastructure and configuration
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Terraform State stores bindings between objects in a remote system, and resource instances declared in the configuration
 
-## Try yourself
+☁️ Technically, Terraform can operate without using State, but it adds complexity as that functionality is shifted elsewhere
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+☁️ Terraform expects a one-to-one mapping between configured resource instances and remote objects
 
-### Step 1 — Summary of Step
+☁️ Lineage: a unique ID assigned to a state when it is created
 
-![Screenshot](https://via.placeholder.com/500x300)
+☁️ Serial: every state has an increasing serial number; this prevents Terraform from overwriting a state with a higher serial number, meaning changes have occurred to the destination state
 
-### Step 1 — Summary of Step
+## My Experience
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 1 — State File
 
-### Step 3 — Summary of Step
+Here's the state file from the current resource group I did in yesterday's exercise
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/terraform-state-task1-tfstate-1.png" width="800"/>
+</div>
+
+### Task 2 — State File Backup
+
+Terraform by default will create a backup of the state
+
+<div align="center">
+  <img src="images/terraform-state-task2-backup-2.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ From my understanding, you can manually edit the state. Although, that's not recommended, and could have dangerous affects if you don't know what you're doing.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to learn about Modules in Terraform
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
