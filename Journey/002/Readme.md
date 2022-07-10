@@ -68,7 +68,7 @@ Following the lab, we invited the Lab Tenant user as a guest account. Then assig
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the first lab, Manage Subscriptions and RBAC, from the Governance and Compliance module.
+✍️ Tomorrow, I'm going to do the first lab, [Manage Subscriptions and RBAC](../003/Readme.md), from the Governance and Compliance module.
 
 ## Social Proof
 
