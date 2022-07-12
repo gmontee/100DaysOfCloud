@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/RgavM7PsMNjccqgqfu/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/RgavM7PsMNjccqgqfu/giphy.gif" width="300"/>
 </div>
 
 # Day 3 - Azure AZ-104 Manage Subscriptions and RBAC Lab
@@ -66,7 +66,7 @@ For the second action, the user can create support requests.
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the third lab, 2b Manage Governance via Azure Policy, from the Governance and Compliance module.
+✍️ Tomorrow, I'm going to do the third lab, [2b Manage Governance via Azure Policy](../004/Readme.md), from the Governance and Compliance module.
 
 ## Social Proof
 
