@@ -58,7 +58,7 @@ Creating the policy for resources to inherit a certain tag from the resource gro
 
 ## Next Steps
 
-✍️ Tomorrow, I'm going to do the fourth lab, 3a Manage Azure resources by Using the Azure Portal, from the Azure Administration module.
+✍️ Tomorrow, I'm going to do the fourth lab, [3a Manage Azure resources by Using the Azure Portal](../005/Readme.md), from the Azure Administration module.
 
 ## Social Proof
 
