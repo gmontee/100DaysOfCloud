@@ -1,7 +1,3 @@
-<div id="cover photo" align="center">
-  <img src="" width="500"/>
-</div>
-
 # Day 54 - Reflections on Climbing the Mountain
 
 <div id="cover photo" align="center">
