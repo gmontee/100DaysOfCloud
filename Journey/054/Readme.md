@@ -46,11 +46,11 @@ I have a lifetime of experience and knowledge. However, to quote Aristotle, "The
 
 ## The Future
 
-During my Air Force career, I felt many decisions were made for me. Where I would be stationed, which unit, the mission, all decided by Uncle Sam. When I transitioned out and joined Booz Allen Hamilton, I found myself in a Cloud Engineering role, doing Infrastructure-as-a-Service work. It was challenging, but I learned a tremendous amount. More importantly I found the Cloud ecosystem to be massive, and had so much potential. You didn't have to worry about getting silo'd to a particular development stack. I knew where I wanted to steer the second half of my career; _The Cloud_.
+During my Air Force career, I felt many decisions were made for me. Where I would be stationed, which unit, the mission, all decided by Uncle Sam. When I transitioned out and joined Booz Allen Hamilton, I found myself in a Cloud Engineering role, doing Infrastructure-as-a-Service work. It was challenging, but I learned a tremendous amount. More importantly I found the Cloud ecosystem to be massive, and had so much potential. I knew where I wanted to steer the second half of my career; _The Cloud_.
 
 I began the [100 Days of Cloud challenge](https://100daysofcloud.com/) as a framework to structure, guide, and document my journey to learning the Cloud ecosystem. I was worried that devoting a little time each day to learn and document would be burdensome, but like my hikes up Mount Katahdin, I found a sustainable rhythm to progress.
 
-**To build the endurance and strength to climb a mountain in order to reach the clouds doesn't happen overnight, nor over days, or weeks, or even months.**
+**In order to reach the clouds, I have to climb a mountain. To climb a mountain, I need to build my endurance and strength. To build my endurance and strength I need deliberate practice everyday. This journey will not happen overnight, nor over days, weeks, or even months. It is a lifetime journey.**
 
 Deliberate, regular training is needed over uneven, unfocused spurts. One needs a road map, with milestones and ultimately, a destination. To properly know and break in one's gear. To keep an eye on the weather. Knowing when to push, and when to rest. To accept setbacks, and tend to wounds. To have realistic expectations. Finally, most importantly, acknowledging and celebrating accomplishments.
 
