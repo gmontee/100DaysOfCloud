@@ -58,4 +58,4 @@ Deliberate, regular training is needed over uneven, unfocused spurts. One needs 
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6953748347241316353-fJw9?utm_source=linkedin_share&utm_medium=member_desktop_web)
