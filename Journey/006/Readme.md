@@ -36,35 +36,62 @@ Yesterday, I walked through Lab 3a Manage Azure resources by Using the Azure Por
 ### Step 1 — Review an ARM template for deployment of an Azure managed disk
 
 In the 'az104-03a-rg1' resource group, I look at past deployment of resources, in this case the disk from the previous lab.
-![Screenshot](images/az104-lab3b-task1-deployments.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task1-deployments.png" width="800"/>
+</div>
 
 Looking at the template, there's the option to download it. "My preciouss" - Gollum (probably)
-![Screenshot](images/az104-lab3b-task1-template.png
+
+<div align="center">
+  <img src="images/az104-lab3b-task1-template.png" width="800"/>
+</div>
 
 ### Step 2 — Create an Azure managed disk by using an ARM template
 
 Apparently, there's a service called "Deploy a custom template". I guess that's straight forward.
-![Screenshot](images/az104-lab3b-task2-deploy-custom.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-deploy-custom.png" width="800"/>
+</div>
 
 The template loads, and goto Edit Parameters. No problem.
-![Screenshot](images/az104-lab3b-task2-edit-parameters.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-edit-parameters.png" width="800"/>
+</div>
 
 Bunch of warnings and an error. Something about Strings when expecting objects.
-![Screenshot](images/az104-lab3b-task2-parse-error.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-parse-error.png" width="800"/>
+</div>
 
 I tried editing various fields, re-loading the template, then the parameters, and even when I passed 'validation', the deployment would fail.
-![Screenshot](images/az104-lab3b-task2-deployment-failed.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-deployment-failed.png" width="800"/>
+</div>
 
 At this point I'm frustrated, so walking through the portal I noticed that via the disk blade you can view it's template, versus the using 'deployments' on the resource group blade.
-![Screenshot](images/az104-lab3b-task2-disk-export.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-disk-export.png" width="800"/>
+</div>
 
 Critically, I noticed the templates had two different schemas, one marked 2015, and one 2019.
-![Screenshot](images/az104-lab3b-task2-different-schemas.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-different-schemas.png" width="800"/>
+</div>
 
 ### Step 3 — Review the ARM template-based deployment of the managed disk
 
 Utilizing the 2019 template I had gotten directly from the previous disk, this deployment went smoothly, as it should since I didn't change anything.
-![Screenshot](images/az104-lab3b-task2-deployment-success.png)
+
+<div align="center">
+  <img src="images/az104-lab3b-task2-deployment-success.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
@@ -72,7 +99,7 @@ Unlike the previous labs, up to this point, this was quite bumpy. I'm going to n
 
 ## Next Steps
 
-Tomorrow, I'm going to do the sixth lab, 3c Manage Azure resources by Using Azure PowerShell, from the Azure Administration module.
+Tomorrow, I'm going to do the sixth lab, [3c Manage Azure resources by Using Azure PowerShell](../007/Readme.md), from the Azure Administration module.
 
 ## Social Proof
 
