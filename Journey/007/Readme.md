@@ -37,24 +37,39 @@ Since I have you used Cloud Shell before, I wasn't prompted for creating a stora
 To open Cloud Shell, it's the icon to the right of the search bar showing the greater than sign followed by an underscore.
 You can adjust the window size using the middle divider, if you still wish to see part of the Portal, or maximize it like a typical window.
 On the left side of the Cloud Shell toolbar, you can select PowerShell, or Azure CLI. Even with PowerShell selected, you can still use Azure CLI commands.
-![Screenshot](images/az104-lab3c-task1-cloud-shell.png)
+
+<div align="center">
+  <img src="images/az104-lab3c-task1-cloud-shell.png" width="800"/>
+</div>
 
 ### Task 2 — Create a resource group and an Azure managed disk by using Azure PowerShell
 
 In PowerShell you create variables using '$', the dollar sign. If you're doing work within the same resource group, using the same Azure Region, and so on, it makes sense to assign those items to variables. This allows consistency (just make sure you didn't mistype it the first time), and easier to type and read commands.
-![Screenshot](images/az104-lab3c-task2-create-rg.png)
+
+<div align="center">
+  <img src="images/az104-lab3c-task2-create-rg.png" width="800"/>
+</div>
 
 When entering long commands, you can use, '`' the backtick (usually above your tab key) followed by enter to continue to the next line for easier reading.
 Here, I create two additional variables for the disk configuration, and disk name.
-![Screenshot](images/az104-labs3c-task2-create-disk.png)
+
+<div align="center">
+  <img src="images/az104-labs3c-task2-create-disk.png" width="800"/>
+</div>
 
 ### Task 3 — Configure the managed disk by using Azure PowerShell
 
 Here I use increase the disk size, originally 32, to 64 GB. The change is nearly instant.
-![Screenshot](images/az104-labs3c-task2-create-disk.png)
+
+<div align="center">
+  <img src="images/az104-labs3c-task2-create-disk.png" width="800"/>
+</div>
 
 With a simple command, I change the SKU from standard to premium. This Microsoft Doc covers the [difference between the Disk SKU's](https://docs.microsoft.com/en-us/azure/virtual-machines/disks-types).
-![Screenshot](images/az104-lab3c-task3-increase-size.png)
+
+<div align="center">
+  <img src="images/az104-lab3c-task3-increase-size.png" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
@@ -62,10 +77,8 @@ With a simple command, I change the SKU from standard to premium. This Microsoft
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to do the seventh lab, 3d Manage Azure resources by Using Azure CLI, from the Azure Administration module.
+☁️ Tomorrow, I'm going to do the seventh lab, [3d Manage Azure resources by Using Azure CLI](../008/Readme.md), from the Azure Administration module.
 
 ## Social Proof
-
-Show that you shared your process on LinkedIn
 
 [Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6922269697316966401-5nB-?utm_source=linkedin_share&utm_medium=member_desktop_web)
