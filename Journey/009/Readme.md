@@ -25,7 +25,7 @@ They do recommend that if you're new to cloud, to do the [AZ-900 Learning path](
 
 "An Azure administrator often serves as part of a larger team dedicated to implementing an organization's cloud infrastructure."
 
-*taken from the Microsoft Docs page*
+_taken from the Microsoft Docs page_
 
 ## Cloud Research
 
@@ -40,11 +40,13 @@ On an episode of the [CloudSkills.fm](https://cloudskills.fm/) podcast, [Tim War
 ### Step 1 — Knowledge
 
 I went with A Cloud Guru's "AZ-104 Microsoft Azure Administrator Certification Prep" course. It's roughly 34 hours of content over 100+ lessons, and a couple dozen labs.
+
 <div id="a cloud guru" align="center">
   <img src="https://avatars.githubusercontent.com/u/12712530?s=200&v=4" width="300"/>
 </div>
 
 I also utilzied John Savill's free Onboard to Azure youtube series, specifically his [AZ-104 super cram session](https://www.youtube.com/watch?v=VOod_VNgdJk).
+
 <div id="john savill" align="center">
   <img src="https://savilltech.files.wordpress.com/2020/10/cropped-0cf2f-ntfaqguy_banneronlysmall.png" width="500"/>
 </div>
@@ -52,6 +54,7 @@ I also utilzied John Savill's free Onboard to Azure youtube series, specifically
 ### Step 2 — Hands-on Practice
 
 In addition to the A Cloud Guru's labs for the hands-on practice, I utlized [Microsoft Learn's Github page](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/) has over a dozen labs. They are done well. I caution you to make sure you set up budget alerts before doing any labs, in case you forget any resources that cost.
+
 <div id="Microsoft labs" align="center">
   <img src="https://docs.microsoft.com/en-us/media/learn/home/hero_background_light.svg?branch=main" width="500"/>
 </div>
@@ -59,6 +62,7 @@ In addition to the A Cloud Guru's labs for the hands-on practice, I utlized [Mic
 ### Step 3 — Test taking skills
 
 For taking pracitice exams, I went with [Tutorial Dojo's AZ-104 Microsoft Azure Administrator Practice Exams](https://portal.tutorialsdojo.com/courses/az-104-microsoft-azure-administrator-practice-exams/). The material was well presented, and they explained why answers were right and wrong.
+
 <div id="tutorial dojo" align="center">
   <img src="https://td-mainsite-cdn.tutorialsdojo.com/wp-content/themes/avada-child/assets/img/icon_tutorialsdojoMainBlack.png" width="300"/>
 </div>
@@ -69,10 +73,8 @@ I PASSED!! Talk about sweating bullets. I scored 767, and taking into account my
 
 ## Next Steps
 
-Trying to decide what next on my journey. Might finish the AZ-104 labs. Also looking at starting on Docker and Kubernetes, or Bicep and Terraform.
+Trying to decide what next on [my journey](../010/Readme.md). Might finish the AZ-104 labs. Also looking at starting on Docker and Kubernetes, or Bicep and Terraform.
 
 ## Social Proof
-
-☁️ Show that you shared your process on LinkedIn
 
 [Linkedin Post](https://www.linkedin.com/posts/georgemontee_github-gmontee100daysofcloud-activity-6923031451705720832-_5jF?utm_source=linkedin_share&utm_medium=member_desktop_web)
