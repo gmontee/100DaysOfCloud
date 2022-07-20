@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/xUA7aRuBrh8DNTVcze/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/xUA7aRuBrh8DNTVcze/giphy.gif" width="300"/>
 </div>
 
 # Day 10 - Azure AZ-104 Implement Virtual Networking
@@ -136,7 +136,7 @@ Here I'm able to successfully resolve the domain name for the first vm! The seco
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to journey into the world of Intersite Connectivity.
+☁️ Tomorrow, I'm going to journey into the world of [Intersite Connectivity](../011/Readme.md).
 
 ## Social Proof
 
