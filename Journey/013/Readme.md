@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/Te0mQ7oWbqot5LpaTT/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/Te0mQ7oWbqot5LpaTT/giphy.gif" width="300"/>
 </div>
 
 # Day 13 - AZ-204 Creating a static HTML web app by using Azure Cloud Shell
@@ -67,7 +67,7 @@ A quick refresh, and the page shows the update.
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to dig deeper into Azure App Service by looking at application settings, installing SSL/TLS certificates to secure web traffic, enable diagnostic logging, creating virtual app to directory mappings, and managing app features.
+☁️ Tomorrow, I'm going to dig deeper into [Azure App Service](../014/Readme.md) by looking at application settings, installing SSL/TLS certificates to secure web traffic, enable diagnostic logging, creating virtual app to directory mappings, and managing app features.
 
 ## Social Proof
 
