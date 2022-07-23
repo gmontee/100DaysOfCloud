@@ -1,5 +1,5 @@
 <div id="cover photo" align="center">
-  <img src="https://media.giphy.com/media/BNfSvT4oflVIQfwHWj/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/BNfSvT4oflVIQfwHWj/giphy.gif" width="300"/>
 </div>
 
 # Day 12 - Azure AZ-204 Azure App Service
@@ -142,7 +142,7 @@
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to create a static HTML web app by using Azure Cloud Shell
+☁️ Tomorrow, I'm going to [create a static HTML web app by using Azure Cloud Shell](../013/Readme.md)
 
 ## Social Proof
 
