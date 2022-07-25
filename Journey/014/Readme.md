@@ -95,7 +95,7 @@ Platform Settings:
 
 ## Next Steps
 
-☁️ Tomorrow, I'm going to look at scaling apps in the Azure App Service
+☁️ Tomorrow, I'm going to look at [scaling apps in the Azure App Service](../015/Readme.md)
 
 ## Social Proof
 
