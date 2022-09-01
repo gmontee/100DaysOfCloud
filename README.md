@@ -110,14 +110,14 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 - [ ] ☁️ 57 > [](Journey/057/Readme.md) <!-- Terraform - Providers -->
 - [ ] ☁️ 58 > [](Journey/058/Readme.md) <!-- Terraform - Variables -->
 - [ ] ☁️ 59 > [](Journey/059/Readme.md) <!-- Terraform - State -->
-- [ ] ☁️ 60 > [](Journey/060/Readme.md) <!-- Terraform - Modules -->
-- [ ] ☁️ 61 > [](Journey/061/Readme.md) <!-- Terraform - Dynamic Blocks -->
-- [ ] ☁️ 62 > [](Journey/062/Readme.md) <!-- Terraform - CLI -->
-- [ ] ☁️ 63 > [](Journey/063/Readme.md) <!-- Terraform - Deploy to Azure -->
-- [ ] ☁️ 64 > [](Journey/064/Readme.md) <!-- Terraform - Manage Azure Infrastructure -->
-- [ ] ☁️ 65 > [](Journey/065/Readme.md) <!-- Terraform - Output Variables -->
-- [ ] ☁️ 66 > [](Journey/066/Readme.md) <!-- Terraform - Logging -->
-- [ ] ☁️ 67 > [](Journey/067/Readme.md) <!-- Terraform - Troubleshooting -->
+- [ ] ☁️ 60 > [](Journey/060/Readme.md) <!-- Terraform - Storing State Remotely -->
+- [ ] ☁️ 61 > [](Journey/061/Readme.md) <!-- Terraform - Data Sources -->
+- [ ] ☁️ 62 > [](Journey/062/Readme.md) <!-- Terraform - Constraining Versions -->
+- [ ] ☁️ 63 > [](Journey/063/Readme.md) <!-- Terraform - Output Variables  -->
+- [ ] ☁️ 64 > [](Journey/064/Readme.md) <!-- Terraform - Debugging -->
+- [ ] ☁️ 65 > [](Journey/065/Readme.md) <!-- Terraform - Built-in Functions -->
+- [ ] ☁️ 66 > [](Journey/066/Readme.md) <!-- Terraform - Modules -->
+- [ ] ☁️ 67 > [](Journey/067/Readme.md) <!-- Terraform - Dynamic Blocks -->
 - [ ] ☁️ 68 > [](Journey/068/Readme.md) <!-- Terraform - Troubleshooting -->
 - [ ] ☁️ 69 > [](Journey/069/Readme.md) <!-- Terraform - Troubleshooting -->
 - [ ] ☁️ 70 > [](Journey/070/Readme.md) <!-- Terraform - Troubleshooting -->
