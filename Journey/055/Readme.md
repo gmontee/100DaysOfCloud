@@ -104,4 +104,4 @@ To turn on autocomplete, I need to make sure my .bashrc file exists, and install
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6971123771579535360-eUj6?utm_source=share&utm_medium=member_desktop)
