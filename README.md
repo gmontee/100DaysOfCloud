@@ -101,11 +101,11 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 
 ## Rest Stop - Reflections on Climbing the Mountain
 
-- [ ] ☁️ 54 > [](Journey/054/Readme.md)
+- [ ] ☁️ 54 > [Reflections on Climbing the Mountain](Journey/054/Readme.md)
 
 ## Trekking through the Terraformed dunes
 
-- [ ] ☁️ 55 > [](Journey/055/Readme.md) <!-- Terraform - Infrastructure as Code -->
+- [ ] ☁️ 55 > [Terraform - Infrastructure as Code](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md) <!-- Terraform - Workflow -->
 - [ ] ☁️ 57 > [](Journey/057/Readme.md) <!-- Terraform - Providers -->
 - [ ] ☁️ 58 > [](Journey/058/Readme.md) <!-- Terraform - Variables -->
