@@ -38,6 +38,8 @@ Here's the state file from the current resource group I did in yesterday's exerc
 
 Terraform by default will create a backup of the state
 
+`cat terraform.tfstate.backup`
+
 <div align="center">
   <img src="images/terraform-state-task2-backup-2.png" width="800"/>
 </div>
