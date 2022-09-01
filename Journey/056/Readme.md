@@ -26,11 +26,11 @@
 
 ## Cloud Research
 
-☁️ HashiCorp recommends teams utilize a shared Continuous Integration environment in order to protect sensitive inputs
+☁️ HashiCorp recommends teams utilize a shared Continuous Integration environment in order to protect sensitive inputs. Although source controlling IaC is a best practice, there is potential risk for secrets to be accidentally committed. There are a variety of options to migrate this risk, for example using Azure Key Vault to store subscription id, app id, password, and other secrets.
 
-☁️ The ability to source control Terraform code enables pull requests and code reviews
+☁️ The ability to source control Terraform code enables pull requests and code reviews, sharing of code, and all the other advantages of software version control
 
-☁️ HashiCorp HIGHLY recommends a human manually reviewing Plans, but if approval isn't needed (non-critical infrastructure) there's an option:
+☁️ HashiCorp HIGHLY recommends a human manually reviewing Plans. For instance, the Plan command has an option to output a plan file of the proposed changes, which can be reviewed by another person, and applied if correct. If approval isn't needed (non-critical infrastructure) there's an option:
 
 `terraform apply -input=false -auto-approve`
 
@@ -57,7 +57,7 @@ This step initializes the directory, looking for all the Terraform configuration
 
 ### Task 3 — Plan
 
-This step will show whether the execution plan matches my expectations on what will be added, changed, etc.
+This step will show whether the execution plan matches my expectations on what will be added, changed, etc. In this, a new VM based off the Amazon Machine Image I specified.
 
 `terraform plan`
 
@@ -99,7 +99,7 @@ If we wish to remove everything governed by terraform, we use the destroy comman
 
 ## ☁️ Cloud Outcome
 
-☁️ When I was creating resources in Azure via the CLI, it was faster than using the Azure Portal, but quicker utilizing Bash or PowerShell commands. You can create a scripts with all those commands, but then you would have to create a script to remove those resources. Here Terraform shows what it's going to do, and since it's tracking the state of the infrastructure, it can easily delete it.
+☁️ When I was creating resources in Azure via the command line, leveraging Bash or PowerShell, it was faster than navigating through the Azure Portal. However, manually typing those commands invited the risk of mistyping, or goofing multi-line commands. You can create a scripts with all those commands, but then you would have to create a script to remove those resources. On the other hand, Terraform shows what it's going to do, and since it's tracking the state of the infrastructure, it can easily delete resources it's tracking.
 
 ☁️ Looking over the HashiCorp documentation, each of the subcommands has various parameters, but overall it's amazing how simple they CAN be, as opposed to all the parameters had to enter via traditional CLI commands.
 
