@@ -1,52 +1,57 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="" width="300"/>
+</div>
 
-# New post title here
+# Day 61 - Terraform - Data Sources
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today, I'm going to learn about the Data Source block in Terraform
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Data Source blocks define resources outside Terraform's control, or defined by another Terraform configuration
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+☁️ Depending on your environment, particularly brownfields, there may already be resources in place that you don't want Terraform managing. However, you may need a way to reference them. That's where data source blocks come in.
+
+☁️ They're similar to how you would lay out a resource block, however you can't use arguments that would manipulate them, since they are _read_ only.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ As
 
 ## Try yourself
 
 ✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Task 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/terraform-task1-provider.jpg" width="800"/>
+</div>
 
-### Step 1 — Summary of Step
+### Task 2 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/terraform-task1-provider.jpg" width="800"/>
+</div>
 
-### Step 3 — Summary of Step
+### Task 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/terraform-task1-provider.jpg" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ As
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to learn about constraining versions in Terraform
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
