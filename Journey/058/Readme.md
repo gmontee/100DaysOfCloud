@@ -61,6 +61,8 @@ Since I destroyed the resource group yesterday, it's a clean slate to create the
 
 Here's where it gets interesting. This time go around, I use the var parameter to specify a particular resource group name. Terraform knows from it's state file there is already a resource group, and needs to change the name. Terraform infrastructure is immutable, and so it doesn't edit what's already place (like in Ansible), but rather it destroys the current resource group with the old name, and recreates it with the new name!
 
+`terraform apply -var "resource_group_name=myNewResourceGroupName"`
+
 <div align="center">
   <img src="images/terraform-variables-task4-override-4.png" width="800"/>
 </div>
