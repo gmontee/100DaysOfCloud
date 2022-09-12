@@ -90,7 +90,7 @@ Main.tf
   <img src="images/terraform-providers-task3-config-4.png" width="800"/>
 </div>
 
-For the required_providers I'm specifying Azure Resource Manager, which is abbreviated as azurerm. I'm specifying a particular version, which HashiCorp highly recommends; in this case version 3.0.2, as of this writing the latest version on the [public registry](https://registry.terraform.io/providers/hashicorp/azurerm/3.12.0) is 3.12.0
+For the required_providers I'm specifying Azure Resource Manager, which is abbreviated as azurerm. I'm specifying a particular version, which HashiCorp highly recommends; in this case version 3.0.2, as of this writing the latest version on the [public registry](https://registry.terraform.io/providers/hashicorp/azurerm/3.22.0) is 3.22.0
 
 The required_version refers to the Terraform CLI version. Here I'm saying it must be equal to or greater than version 1.1.0. I'm currently running 1.2.4
 
