@@ -106,8 +106,8 @@ Additionally, I intend to get _some_ of the following certifications. My idea be
 ## Trekking through the Terraformed dunes
 
 - [ ] ☁️ 55 > [Terraform - Infrastructure as Code](Journey/055/Readme.md)
-- [ ] ☁️ 56 > [](Journey/056/Readme.md) <!-- Terraform - Workflow -->
-- [ ] ☁️ 57 > [](Journey/057/Readme.md) <!-- Terraform - Providers -->
+- [ ] ☁️ 56 > [Terraform - Workflow](Journey/056/Readme.md)
+- [ ] ☁️ 57 > [Terraform - Providers](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [](Journey/058/Readme.md) <!-- Terraform - Variables -->
 - [ ] ☁️ 59 > [](Journey/059/Readme.md) <!-- Terraform - State -->
 - [ ] ☁️ 60 > [](Journey/060/Readme.md) <!-- Terraform - Storing State Remotely -->
