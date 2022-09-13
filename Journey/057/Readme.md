@@ -160,4 +160,4 @@ Logging into the Azure Portal, I can see the new resource group
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6975438545138176000-_BXA?utm_source=share&utm_medium=member_desktop)
