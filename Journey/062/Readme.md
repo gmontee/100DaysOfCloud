@@ -1,52 +1,53 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<div id="cover photo" align="center">
+  <img src="https://media.giphy.com/media/cKKXNlTYino7hWNXwl/giphy.gif" width="300"/>
+</div>
 
-# New post title here
+# Day 62 - Terraform - Constraining Version
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+☁️ Today, I'm going to learn about constraining versions in Terraform
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+☁️ Similar to package dependencies in software development, you may want (or need) to specify an acceptable version or range of versions for modules, providers, and terraform itself.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+☁️ New versions, in particular major version upgrades, may potentially break terraform code or produce unexpected results
+
+☁️ On the flip side, you may have legacy code in place, and want to keep the versions at and/or less than a particular version
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+☁️ Per the [Terraform documentation](https://www.terraform.io/language/expressions/version-constraints), A version constraint is a string literal containing one of more conditions, separated by commas
 
-## Try yourself
+`version = "1.2.9"` The equal sign provides for one _exact_ version
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+`version != "1.2.9"` excludes a particular version (I imagine this one is rarely used)
 
-### Step 1 — Summary of Step
+`version ~> "1.2.9` allows only the rightmost version to increment. The example would allow 1.2.10, 1.2.11, etc, but not 1.3.0 and beyond.
 
-![Screenshot](https://via.placeholder.com/500x300)
+`>, >=, <, <=` Of course, operators allow for greater than, less than, and their equal versions
 
-### Step 1 — Summary of Step
+## My Experience
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Task 1 — Constrain versions for multiple providers
 
-### Step 3 — Summary of Step
+Going through the list, for Azure since there's no bugfix versions, it installs the 3.20.0 version. For AWS, we specified a specific version, 2.7.0. For Google we specified any version BUT 4.35.0; terraform went for the latest version and hence 4.36.0 was installed. The last one, specifies any Terraform version equal or greater than 1.2.8; since a new version is available, 1.2.9 was installed.
 
-![Screenshot](https://via.placeholder.com/500x300)
+<div align="center">
+  <img src="images/terraform-version-constraint.jpg" width="800"/>
+</div>
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+☁️ A smart way of limiting potential issues for version upgrades, or protection for legacy code
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+☁️ Tomorrow, I'm going to learn about output variables in Terraform
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Linkedin Post]()
