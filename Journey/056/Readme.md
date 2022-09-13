@@ -109,4 +109,4 @@ If we wish to remove everything governed by terraform, we use the destroy comman
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6971485485814755329-Wkcq?utm_source=share&utm_medium=member_desktop)
