@@ -77,4 +77,4 @@ Here's where it gets interesting. This time go around, I use the var parameter t
 
 ## Social Proof
 
-[Linkedin Post]()
+[Linkedin Post](https://www.linkedin.com/posts/georgemontee_100daysofcloud-activity-6975819964934979585-_N6x?utm_source=share&utm_medium=member_desktop)
